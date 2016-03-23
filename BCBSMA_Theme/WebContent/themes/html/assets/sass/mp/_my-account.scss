@@ -1,0 +1,50 @@
+.account-nav {
+    padding: 0 0 30px 60px;
+    border-bottom: solid 2px $dividers-blue;
+    font-size: 14px;
+	li a { 
+		color: $subnav-blue;
+		margin-left: 1rem;
+   	    margin-right: 1rem;
+        padding: 25px 0 10px;
+	}
+    li a:hover { color: $body-font-color; }
+    li a.is-active { 
+    	color: $body-font-color;
+    	border-bottom: solid 3px $tertiary-color;
+    	font-weight: bold;
+    	padding-bottom: 3px;
+    }
+}
+
+.personal-data {
+    background: $pale-blue;
+    padding: 0 30px 30px;
+    @include breakpoint(medium) {
+        padding: 30px;
+    }
+    .sections,
+    .sections-divider-first,
+    .sections-divider {
+        display: inline-block;
+        padding: 30px 0;
+        @include breakpoint(medium) {
+            display: inline-block;
+            padding: 0 30px;
+        }
+    }
+    .sections-divider-first {
+        padding-left: 0px;
+    }
+    .sections-divider-first,
+    .sections-divider {
+        border-bottom: solid 1px $medium-gray;
+        @include breakpoint(medium) {
+            border-right: solid 1px $medium-gray;
+            border-bottom: none;
+        }
+    }
+    .please-call {
+        padding-top: 20px;
+    }
+}

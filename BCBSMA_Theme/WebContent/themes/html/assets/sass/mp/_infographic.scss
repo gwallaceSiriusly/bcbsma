@@ -1,0 +1,169 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Infographic
+/****************************/
+.coverage-paid {
+	@include clearfix;
+	font-size: 12px;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+	span {
+		padding: 0.3125rem 0.625rem;
+		color: $white;
+		font-weight: 700;
+		display: inline-block;
+		margin-right: 0.3125rem;
+	}
+	.you {
+		background-color: $secondary-color;
+		
+	}
+	.plan {
+		background-color: $primary-color;
+	}
+}
+
+.infographic {
+	display: none;
+	max-width: 950px;
+	margin: 0 auto;
+	.has-tip {
+		display: inline;
+	}
+	.vr {
+		position: relative;
+		margin: 1rem auto;
+		text-align: center;
+		background-color: rgba($black, 0.15);
+		background-size: auto 2px;
+		height: 2px;
+		span {
+			font-size: .6875rem;
+			font-weight: 600;
+		  background-color: $white;
+		  padding: 2px 4px 4px;
+		  position: absolute;
+    	top: 50%;
+    	margin-left: -0.625rem;
+    	margin-top: -0.75rem;
+    	line-height: 1rem;
+		}
+		@media only screen and (min-width:1024px) {
+			width: 2px;
+			min-height: 3.75rem;
+			margin: 0 auto;
+		}
+	}
+	hr {
+		border: 0;
+		height: 2px; 
+		background-color: rgba($black, 0.15);
+		margin: .5rem auto .875rem;
+	}	
+	.title-section {
+	  font-size: 0.875rem;
+		> .sub-heading {
+			display: block;
+			font-weight: 400;
+		}
+  }
+  .graph-item {
+	  margin-bottom: .75rem;
+	  &.deductible {
+      position: absolute;
+      bottom: 9%;
+      right: 1.25rem;
+      padding-left: 2.5rem;
+      width: 100%;
+    }
+    &.oopm {
+    	position: absolute;
+    	bottom: 33%;
+    	left: 1.5rem;
+    	padding-right: 2rem;
+    	width: 100%;
+    }
+	}
+	.page-titles {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+	.column {
+		padding-top: 1.25rem;
+		padding-bottom: 1rem;
+		padding-right: 1.25rem !important;
+		padding-left: 1.25rem !important;
+		position: relative;
+		&.col-top {
+			height: 367px;
+		}
+		&.col-btm {
+			min-height: 489px;
+		}
+		&:nth-child(odd) {
+		  background-color: #f4f4f4;
+		}
+		.column {
+			background-color: transparent !important;
+			border: none;
+			padding: 0 !important;
+			min-height: 0;
+		}
+		.col-head {
+			@include clearfix;
+			.title-section {
+				text-transform: none !important;
+			}
+			&.no-margin-top {
+        margin-top: -1.25rem;
+			}
+		}
+		
+	}
+	@media only screen and (min-width:1024px) {
+		display: block;
+	}
+}
+
+
+.infographic-side-note {
+  position: relative;
+  p {
+    background-color: #fefefe;
+      padding: .625rem;
+      position: absolute;
+      margin: 50% auto;
+      text-align: right;
+      z-index: 100;
+      max-width: 125px;
+      right: 13px;
+      font-size: 0.75rem;
+      line-height:1.5em;
+		}
+		img {
+			position: absolute;
+    	z-index: 1;
+    	right: 6px;
+    	height: 15.3125rem;
+      top: -3px;
+		}
+	}
+
+.heading-vertical {
+	transform: rotate(-360deg);
+  position: absolute;
+
+  &.white {
+  	width: 25px;
+  	height: 197px;
+  	left: -12px;
+  	bottom: 18%;
+  }
+  &.gray {
+    height: 138px;
+    width: 31px;
+    right: -15px;
+    bottom: 22%;
+  }
+}

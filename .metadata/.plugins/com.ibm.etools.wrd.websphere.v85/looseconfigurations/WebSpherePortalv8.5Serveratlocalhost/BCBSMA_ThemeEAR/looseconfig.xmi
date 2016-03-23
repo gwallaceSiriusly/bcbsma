@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.jst.j2ee.commonarchivecore.looseconfig="commonarchive.looseconfig.xmi" uri="/home/basic_user/Documents/workspace/bcbsma/BCBSMA_ThemeEAR" binariesPath="/home/basic_user/Documents/workspace/bcbsma/BCBSMA_ThemeEAR" resourcesPath="/home/basic_user/Documents/workspace/bcbsma/BCBSMA_ThemeEAR" archiveType="EAR">
+  <looseChildren uri="BCBSMA_Theme.war" binariesPath="/home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent" resourcesPath="/home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent" archiveType="WAR"/>
+</org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive>

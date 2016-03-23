@@ -1,0 +1,42 @@
+
+// adds padding to contents of lower pages such as My Account
+.lower-page-content {
+    padding: 30px 5px;
+    @include breakpoint(medium) {
+        padding: 20px 30px;
+    }
+    @include breakpoint(large) {
+        padding: 60px 80px;
+    }
+}
+.subcontent {
+    background-color: $white;
+    padding: 20px;
+    @include breakpoint(medium) { padding: 2.25rem; }
+}
+// used on my accounts subnavigation
+.title-icons {
+    float: left;
+    margin: 0 20px;
+}
+
+// changes the default cursor for tooltips
+.has-tip:hover { cursor: pointer; }
+.tooltip { max-width: 350px!important; }
+
+// Modals: Sets the default width of a modal, with no classes applied.
+.reveal {
+    width: 775px;
+    max-width: 81.25rem;
+    text-align: center; 
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    
+    @include breakpoint(medium){
+    	padding: 80px 100px;
+    }
+}
+// Make the modal overlay slightly darker than the default setting
+.reveal-overlay { background-color: rgba($black, 0.65); }

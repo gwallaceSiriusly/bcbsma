@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre" version="1.7.0">
+<bootpath>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/amd64/compressedrefs/jclSC170/vm.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/se-service.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/math.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/jlm.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmorb.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmorbapi.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmcfw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmpkcs.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmcertpathfw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmjgssfw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmjssefw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmsaslfw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmjcefw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmjgssprovider.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmjsseprovider2.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmcertpathprovider.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/xmldsigfw.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/xml.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/charsets.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/resources.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/rt.jar"/>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ibmgpu.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/basic_user/IBM/WebSphere/AppServer/java_1.7_64/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/basic_user/IBM/SDP/jdk" version="1.7.0">
+<bootpath>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/jaxb-api.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/jaxws-api.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/javax.j2ee.annotation.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/amd64/compressedrefs/jclSC170/vm.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/se-service.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/math.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/jlm.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmorb.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmorbapi.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmpkcs.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcertpathfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjgssfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjssefw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmsaslfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjcefw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjgssprovider.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjsseprovider2.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcertpathprovider.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/xmldsigfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/xml.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/charsets.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/resources.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/rt.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmgpu.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/basic_user/IBM/SDP/jdk/jre" version="1.7.0">
+<bootpath>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/jaxb-api.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/jaxws-api.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed/javax.j2ee.annotation.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/amd64/compressedrefs/jclSC170/vm.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/se-service.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/math.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/jlm.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmorb.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmorbapi.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmpkcs.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcertpathfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjgssfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjssefw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmsaslfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjcefw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjgssprovider.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmjsseprovider2.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmcertpathprovider.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/xmldsigfw.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/xml.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/charsets.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/resources.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/rt.jar"/>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ibmgpu.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/basic_user/IBM/SDP/jdk/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

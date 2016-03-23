@@ -1,0 +1,11 @@
+<!-- jsf:pagecode language="java" location="/src/pagecode/AllView.java" --><!-- /jsf:pagecode -->
+<div  xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core"
+ xmlns:h="http://java.sun.com/jsf/html" 
+ xmlns:portlet="http://java.sun.com/portlet_2_0"  >  
+  
+
+ 
+
+<p>Place content here.</p>
+
+</div>

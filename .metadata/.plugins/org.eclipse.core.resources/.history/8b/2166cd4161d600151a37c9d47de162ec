@@ -1,0 +1,69 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Accordions
+/****************************/
+.accordion {
+	border: none;
+	background: transparent;
+}
+.accordion-title {
+	@include accordion-title($subnav-blue, $white);
+}
+.accordion-sub-title {
+		@include accordion-title($primary-color, $white);	
+			padding: 1.625rem !important;
+		&::before {
+			right: 1.4rem;
+			background-size: 1.875rem 1.875rem;
+			width: 1.875rem;
+			height: 1.875rem;
+		}
+		@media only screen and (min-width: 768px) {
+			padding: 1.625rem !important;
+		}
+}
+.accordion-item {
+	margin-bottom: 0.3125rem;
+	font-weight: bold;
+	.icon {
+		width: 1.6875rem;
+		height: 1.6875rem;
+		margin-right: 1rem;
+	}
+	&.is-active {
+		.accordion-title {
+			color: $body-font-color;
+			background-color: $light-blue;
+			margin-bottom: 0;
+			border-bottom: 2px solid rgba($primary-color, 0.1);
+			&::before {
+				content: '';
+				background-image: url("../img/icon-arrow-up-blue.svg");
+			}
+		}
+	}
+}
+.accordion-item .accordion-item {
+	margin-bottom: 0.3125rem;
+	font-weight: bold;
+	&.is-active {
+		.accordion-sub-title {
+			color: $body-font-color;
+			background-color: $white;
+			margin-bottom: 0;
+			border-bottom: 2px solid rgba($primary-color, 0.1);
+			&::before {
+				content: '';
+				background-image: url("../img/icon-arrow-up-blue.svg");
+			}
+		}
+	}
+}
+.accordion-content {
+	background-color: $light-blue;
+	padding: 0.625rem 0.625rem 2.25rem;
+	margin-bottom: 0.3125rem;
+	@media only screen and (min-width: 640px) {
+		padding: 3.125rem 5rem 3.125rem 5rem;
+	}
+}

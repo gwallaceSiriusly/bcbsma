@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BCBSMA_Theme/WebContent/themes/html/img/logo-bcbs-ma-footer.ico&apos; to &apos;favicon.ico&apos;" description="Rename resource &apos;logo-bcbs-ma-footer.ico&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/themes/html/img/logo-bcbs-ma-footer.ico" name="favicon.ico" stamp="1456155913131" updateReferences="true"/>
+</session>

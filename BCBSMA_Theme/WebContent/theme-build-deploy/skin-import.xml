@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" build="wp80" version="8.0"
+    xsi:noNamespaceSchemaLocation="PortalConfig_8.5.0.xsd"
+    type="update" create-oids="true">
+    <portal action="locate">
+        <skin action="update" active="true" context-root="/M1Theme" default="false" domain="rel" 
+          resourceroot="M1Skin" type="default" uniquename="M1 Skin">
+        <localedata locale="en">
+            <title>M1 Skin</title>
+        </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" 
+              type="string" update="set"><![CDATA[dav:fs-type1/themes/wp.theme.m1theme/skins/M1Skin/]]></parameter>
+        </skin>
+    </portal>
+</request>

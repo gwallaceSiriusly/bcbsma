@@ -1,0 +1,53 @@
+.off-canvas-wrapper-inner.is-off-canvas-open {
+    overflow-y: initial;
+}
+.off-canvas {
+	color: $white;
+	background: #202020;
+}
+.close-icon { 
+	padding-top: 10px;
+	img {
+		width: 22px;
+		height: auto;
+	}
+}
+ul { 
+	&.offcanvas-nav {
+		margin-top: 20px;
+		li { 
+			list-style-type: none;
+		    border-bottom: solid 1px $dark-gray;
+		    padding: 13px 0px 13px 5px;
+		    margin-right: 15px;
+		}
+		li:last-child {
+			border-bottom: none;
+		}
+		li a { color: $white; }
+	}
+}
+
+.dropdown.menu .has-submenu a::after {
+	margin-top: 5px;
+}
+
+.menu.align-right > li { float: left; }
+.menu,
+.menu a { color: $gray; }
+.menu a:hover { color: $primary-color; }
+
+.menu > li > a { padding: 0.6rem 1rem; }
+// Adding the .main-navigation class allows us to remove the padding from just this navigation so these styles don't effect the use of dropdowns or drill downs elsewhere. 
+.main-navigation {
+	font-size: 15px;
+
+	ul.menu { padding-top: 12px; }
+	.menu.align-right > li { float: left; }
+	.menu > li { border-right: solid 1px; }
+	.menu > li:last-child { border: none; }
+	.menu > li > a { padding: 0 11px; }
+	.children{
+		display: none;
+	}
+}

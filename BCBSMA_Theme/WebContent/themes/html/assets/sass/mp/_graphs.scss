@@ -1,0 +1,175 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Graphs
+/****************************/
+.progress-meter {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+}
+
+
+.graph-item {
+	@include clearfix;
+	margin-bottom: 1rem;
+	.title-section {
+		line-height: 1em;
+		> .sub-heading {
+			text-transform: none;
+			display: block;
+			font-weight: 400;
+			font-size: 0.75rem;
+		}
+	}
+	&.costs {
+	  .graph-bar {
+	    max-width: 110px;
+	    display: inline-block;
+	    margin-right: 1rem;
+	    margin-bottom: .5rem;
+	  }
+	  .amount {
+	    vertical-align: top;
+      font-weight: 600;
+      line-height: 2em;
+	  }
+	}
+	&.claim {
+		.graph-bar {
+			max-width: 200px;
+			display: inline-block;
+			margin-right: 1rem;
+			width: auto;
+		}
+		.amount {
+			vertical-align: normal;
+			line-height: 1.5em;
+		}
+	}
+	.graph-summary {
+		margin: 0 auto;
+		font-size: 0.875rem;
+		margin-top: 2rem;
+	}
+	.amount {
+		display: inline-block;
+    margin-bottom: 0;
+		span {
+			color: $gray;
+		}
+	}
+	.member-name {
+    margin-right: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+}
+	@media only screen and (min-width: 1024px) {
+		.graph-summary {
+			max-width: 6.75rem; 
+		}
+	}
+}
+
+.graph-bar {
+	@include clearfix;
+	&.inline {
+		display: inline;
+		max-width: 15.9375rem;
+	}
+
+	.progress {
+		&.blue {
+			background-color: $primary-color;
+		}
+		&.purple {
+			background-color: $secondary-color;
+		}
+		&.green {
+			background-color: $tertiary-color;
+		}
+		&.orange {
+			background-color: orange;
+		}
+		&.vertical {
+			.progress-meter {
+				width: 100%;
+			}
+		}
+		&.arrow {
+		  margin-right: 20px;
+			.progress-meter {
+				 &:after {
+					content: "";
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					width: 0;
+					height: 0;
+					border-top: 15px solid transparent;
+					border-left: 10px solid $primary-color;
+					border-bottom: 15px solid transparent;
+					margin-right: -10px;
+				} 
+		  }
+		}
+		&.purple-stripe-90 {
+			.progress-meter {
+	  	  position: relative;
+		    /*background-image: url("../img/bkg-purple-stripe.png");*/
+		    background: repeating-linear-gradient(
+  			  90deg,
+  			  $white,
+  			  $white 4px,
+  			  $secondary-color 0px,
+  			  $secondary-color 21px
+			  );
+	    }
+	  }
+	   &.purple-stripe-45 {
+	   	.progress-meter {
+	   	  position: relative;
+		    /*background-image: url("../img/bkg-purple-stripe.png");*/
+        background: repeating-linear-gradient(
+  			  45deg,
+  			  $pink,
+  			  $pink 2px,
+  			  $secondary-color 3px,
+  			  $secondary-color 6px
+			  );
+        &:after {
+          content: "";
+				  width: 2px;
+				  background-color: $medium-gray;
+				  position: absolute;
+				  height: 4.125rem;
+				  right: 0;
+			  }
+			}
+	  }
+	}
+	.progress-meter {
+		&.blue {
+		  background-color: $primary-color;
+	  }
+	  &.purple {
+		  background-color: $secondary-color;
+	  }
+	  &.green {
+		  background-color: $tertiary-color;
+	  }
+	  &.orange {
+		  background-color: orange;
+	  }
+	}
+	&.lrg {
+	  height: 1.875rem; 
+	  width: 100%;
+	}
+	&.sml {height: 0.8125rem;display: block;}
+	.progress {height: 100%;}
+}
+
+
+

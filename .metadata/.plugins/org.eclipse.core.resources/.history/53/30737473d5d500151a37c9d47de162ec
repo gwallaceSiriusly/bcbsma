@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<link rel="dynamic-content" href="res:/BCBSMA_Theme/themes/html/dynamicSpots/head.jsp">
+<body>
+	<header>
+		<div class="navigation">
+			<a href="" class="logo"></a>
+			<div class="nav-function">
+				<a class="menu fi-list"></a>
+				<a class="search-button fi-magnifying-glass"></a>
+			</div>
+		</div>
+		<div class="search hide">
+			<form id="searchQueryForm" action="/wps/myportal/Search/Search%20Center">
+				<a rel="dynamic-content" href="dyn-cs:id:wp_search_dynspot"></a>
+				<a class="search-submit fi-play" onclick="document.searchQueryForm.submit();" href="javascript:;"></a>
+			</form>
+		</div>
+		<div class="title-bar show-for-medium">
+			<div class="row">
+				<div class="title-bar-left">
+					<div class="logo">
+					<a href="index.html"><img src="assets/img/logo-bcbs-ma.svg" alt="BCBS MA"></a>
+					</div>
+					<br>
+				</div>
+				<div class="title-bar-right">
+					<div class="main-navigation">
+						<nav class="main-menu">
+							<a class="menu-close fi-x"></a>
+							<a rel="dynamic-content" href="res:/BCBSMA_Theme/themes/html/dynamicSpots/navigation.jsp?rootLevel=1&amp;levelsDisplayed=2"></a>
+						</nav>
+					</div>
+				</div>
+			</div><!-- row -->
+		</div>
+	</header>
+	<div id="main">
+
+			<a rel="dynamic-content" href="dyn-cs:id:wp_analytics_dynspot"></a>
+			<a rel="dynamic-content" href="mvc:res:/BCBSMA_Theme/themes/html/dynamicSpots/crumbTrail.jsp,smartphone@"></a>
+			<!-- required - do not remove -->
+			<a rel="dynamic-content" href="state.portlet:portlet?include=windowState&include=portletMode&mime-type=text/html"></a>
+			
+			<div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" >	
+				<div class="wpthemeInner">					
+					<a rel="dynamic-content" href="lm:template"></a>
+					<div class="wpthemeClear"></div>
+				</div>
+			</div><!--end main content-->
+	</div>
+	
+	<footer id="footer">
+		<nav>
+			<div class="menu">
+				<a rel="dynamic-content" href="res:/BCBSMA_Theme/themes/html/dynamicSpots/navigation.jsp?rootLevel=1&amp;levelsDisplayed=2"></a>
+			</div>
+		</nav>
+		<a rel="dynamic-content" href="res:/BCBSMA_Theme/themes/html/dynamicSpots/footer.jsp"></a>
+		<!-- page footer -->
+	</footer>
+</body>
+</html>

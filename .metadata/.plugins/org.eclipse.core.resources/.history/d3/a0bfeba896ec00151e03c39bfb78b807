@@ -1,0 +1,245 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Tables
+/****************************/
+table {
+	width: 100%;
+	th, td {
+		padding: 1rem;
+		vertical-align: text-top;
+	}
+	&.scroll {
+		width: 100%;
+		display: block;
+		overflow: auto;
+		/*@include scrollbars;*/
+	}
+}
+.important-text { /* possibly rename this class to something that makes more sense */
+	display: inline;
+	border-bottom: 1px dotted $body-font-color;
+}
+
+.spacer-row {
+			border-top: none !important;
+	td {
+		background-color: $white; 
+		height: 10px;
+		padding: 0;
+	}
+}
+.row-blue {
+	background-color: $light-blue !important;
+	.important {
+		background-color: $primary-color !important;
+		color: $white;
+	}
+}
+.row-purple {
+	background-color: $secondary-color-light !important;
+	.important {
+		background-color: $secondary-color !important;
+		color: $white;
+	}
+}
+.row-header-green {
+	th {
+		background-color: $tertiary-color !important;
+		/*border-bottom: 1px solid $dark-green !important;*/
+		text-align: left !important;
+		border-right: 1px solid $dark-green;
+		&:first-child {
+			background-color: transparent;
+		}
+		&:last-child {
+			border-right: none;
+		}
+	}
+}
+.row-green {
+	background-color: $light-green !important;
+	font-weight: 600;
+}
+.col-green {
+	background-color: $tertiary-color !important;
+	border-bottom: 1px solid $dark-green !important;
+	text-align: left !important;
+	border-right: 1px solid $dark-green !important;
+}
+.row-header-gray {
+	th {text-transform: none !important;}
+}
+.t-row-expander {
+	text-align: center;
+	font-weight: 600;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.expand-item {
+	display: none;
+}
+.border-right-bottom {
+		border-right: 1px solid $table-border-default !important;
+		border-bottom: 1px solid $table-border-default !important;
+}
+.border-none {
+	border: none !important;
+}
+.important {
+	background-color: $table-bkg-important !important;
+}
+.you-pay {
+	border-top: 6px solid $magenta !important;
+	padding-left: 5px;
+	p {
+		text-align: left;
+	}
+}
+.you-pay-amount {
+	font-weight: 600;
+}
+.you-pay-total {
+	@extend .you-pay-amount;
+	color: $secondary-color;
+}
+
+// white table
+.table-white {
+	thead {
+		border: 1px solid $table-border-default;
+		th {
+			
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			font-weight: 700;
+			vertical-align: top;
+			/*&:last-child {
+				border-right: none;
+			}*/
+		}
+	}
+	tbody {
+		background-color: $white;
+		border: none;
+		/*border: 1px solid $table-border-default;*/
+		tr {
+			border-bottom: 1px solid $table-border-default;
+			&:nth-child(even) {
+				background-color: $white;
+			}
+		}
+		td {
+			border-right: 1px solid $table-border-default;
+		
+			&:first-child {
+				border-left: 1px solid $table-border-default;
+			}
+			.table-gray-1 td {
+				border-right: none !important;
+			}
+		}
+	}
+	tfoot {
+		background-color: $white;
+		border: 1px solid $table-border-default;
+		td {
+			border-right: 1px solid $medium-green;
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+	&.left-corner {
+		thead {
+			background-color: transparent;
+			border: none;
+			th {
+				&:first-child {
+					background-color: transparent !important;
+				}
+				&:nth-child(2) {
+				/*	border-left: 1px solid $dark-green;*/
+				}
+			}
+		}
+		tbody {
+			border: none;
+			background-color: $white;
+			tr:first-child {
+				td {
+					border-left: none !important;
+				}
+			}
+			tr:last-child {
+				border-bottom: none !important;
+			}
+			td {
+				border-right: 1px solid $table-border-default;
+				&:last-child {
+						border-right: none;
+					}
+				&:first-child {
+				  border-left: none;
+				}
+				}
+			.expand-item {
+				td {
+					border: none;
+				}
+			}
+		}
+	}	
+}
+
+// gray table
+.table-gray {
+	thead {
+		background-color: $table-bkg-gray !important;
+		border-bottom: 1px solid $table-border-default !important;
+		th {
+			font-weight: normal;
+			border-right: none;
+			&:nth-child(2) {
+				border-left: none !important;
+			}
+		}
+	}
+	tbody {
+		background-color: $table-bkg-gray !important;
+		border: none;
+		th {
+			&.important {
+				font-weight: 600;
+			}
+		}
+		tr {
+			border-top: 1px solid $table-border-default;
+			&:first-child {
+				border-top: none;
+			}
+			&:nth-child(even) {
+				background-color: $table-bkg-gray;
+			}
+			&:last-child {
+				border-bottom: none !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 40em) {
+	table, thead, tbody, th, td, tr{
+		display: block;
+	}
+	
+	tbody{
+		td{
+			padding-left:50%;
+		}
+		
+		td:before {
+			width: 50%;
+			margin-left: -100%;
+		}
+	}
+}

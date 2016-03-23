@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM WebSphere Portal/8.5 build 20140424-1749 exported on Mon Jun 08 18:59:39 CDT 2015 from localhost.localdomain/127.0.0.1 virtual portal: none (default virtual portal) -->
+<!-- 1 [skin ZK_00000000000000A0BR2B300670] -->
+<!-- 2 [skin ZK_00000000000000A0BR2B300674] -->
+<!-- 3 [skin ZK_00000000000000A0BR2B300672] -->
+<!-- 4 [skin ZK_00000000000000A0BR2B300676] -->
+<!-- 5 [theme ZJ_00000000000000A0BR2B300QC6] -->
+<!-- 6 [theme ZJ_00000000000000A0BR2B300MA1] -->
+<!-- 7 [theme ZJ_00000000000000A0BR2B3006F0] -->
+<!-- 8 [theme ZJ_4I9CHIC0L0GF00AM9M2JCA2000] -->
+<!-- 9 [theme ZJ_4I9CHIC0L0GF00AM9M2JCA20K1] -->
+<!-- 10 [theme ZJ_4I9CHIC0L8CIF0AM9RJI7910C6] -->
+<request build="20140424-1749" type="update" version="8.5.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortalConfig_8.5.0.xsd">
+    <portal action="locate">
+        <skin action="update" active="true" context-root="/wps/defaultTheme85" default="true" domain="rel" objectid="ZK_00000000000000A0BR2B300670" resourceroot="Hidden" type="default" uniquename="ibm.portal.85Hidden">
+            <localedata locale="ar">
+                <title>Portal 8.5 - اخفاء</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5- Ocult</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5 - Skrytý</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5 - Skjult</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5 - Verdeckt</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5 - Κρυφό</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5 - Hidden</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5 - Oculto</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5 - Piilotettu</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5 - Masqué</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5 - Rejtett</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5 - Nascosto</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5 - מוסתר</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5 - 非表示</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5 - Hidden</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5 - verborgen</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5 - Skjult</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5 - ukryta</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5 - Oculto</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5 - Oculto</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5 - Ascuns</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5 - скрытая</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5 - Skryté</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5 - skrit</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5 - dold</title>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5 - ซ่อน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5 - Gizlenmiş</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5 - Прихований</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5 - 隐藏</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5 - 隱藏</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5 - skriven</title>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5 - Hidden</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/skins/Hidden/]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/defaultTheme85" default="false" domain="rel" objectid="ZK_00000000000000A0BR2B300674" resourceroot="HiddenPlus" type="default" uniquename="ibm.portal.85HiddenPlus">
+            <localedata locale="ar">
+                <title>Portal 8.5 - اخفاء بشكل زائد</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5 - Més ocult</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5 - Skrytý plus</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5 - Skjult plus</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5 - Verdeckt Plus</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5 - Κρυφό, εμπλουτισμένο</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5 - Hidden Plus</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5 - Oculto Plus</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5 - Piilotettu (plus)</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5 - Masqué Plus</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5 - Rejtett plusz</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5 - Nascosto plus</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5 - מוסתר פלוס</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5 - 非表示プラス</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5 - Hidden Plus</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5 - verborgen plus</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5 - Skjult pluss</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5 - ukryta plus</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5 - Oculto Plus</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5 - Oculto Plus</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5 - Ascuns plus</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5 - скрытая+</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5 - Skryté plus</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5 - skrit Plus</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5 - dold plus</title>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5 - Hidden Plus</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5 - Gizlenmiş Artı</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5 - Прихований плюс</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5 - 隐藏升级</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5 - 隱藏 Plus</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5 - skriven plus</title>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5 - Hidden Plus</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/skins/HiddenPlus/]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/defaultTheme85" default="false" domain="rel" objectid="ZK_00000000000000A0BR2B300672" resourceroot="Standard" type="default" uniquename="ibm.portal.85Standard">
+            <localedata locale="ar">
+                <title>Portal 8.5 - قياسي</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5 - Estàndard</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5 - Standardní</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5 - Τυπικό</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5 - Estándar</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5 - Tavallinen</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5 - Normál</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5 - רגיל</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5 - 標準</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5 - standaard</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5 - standardowa</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5 - Padrão</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5 - Padrão</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5 - стандартная</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5 - Štandard</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5 - standarden</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5 - standard</title>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5 - มาตรฐาน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5 - Standart</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5 - Стандартний</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5 - 标准</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5 - 標準</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5 - standardni</title>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5 - Standard</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/skins/Standard/]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/defaultTheme85" default="false" domain="rel" objectid="ZK_00000000000000A0BR2B300676" resourceroot="NoSkin" type="default" uniquename="ibm.portal.85NoSkin">
+            <localedata locale="ar">
+                <title>Portal 8.5 - بدون شكل عام مهيأ</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5- Sense aparença</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5 - Bez vzhledu</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5 - Intet udseende</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5 - Keine Oberfläche</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5 - Χωρίς μοτίβο</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5 - No Skin</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5 - Sin Skin</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5 - Hahmoton</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5 - Sans habillage</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5 - Nincs felszín</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5 - Nessuno skin</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5 - ללא מעטפת</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5 - スキンなし</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5 - No Skin</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5 - geen uiterlijk</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5 - Uten skall</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5 - bez skóry</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5 - Sem máscara</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5 - Sem Capa</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5 - Fără skin</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5 - без оболочки</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5 - Bez vzhľadu</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5 - brez preobleke</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5 - utan skal</title>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5 - No Skin</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5 - Dışyüz Yok</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5 - Без оболонки</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5 - 无外表</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5 - 無外觀</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5 - bez skina</title>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5 - No Skin</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/skins/NoSkin/]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+        </skin>
+        <theme action="update" active="true" context-root="/wps/defaultTheme85" default="true" defaultskinref="ZK_00000000000000A0BR2B300670" domain="rel" objectid="ZJ_00000000000000A0BR2B300QC6" resourceroot="dynamicSpots" uniquename="ibm.portal.85Theme">
+            <localedata locale="ar">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5</title>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5</title>
+            </localedata>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300670" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300672" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300674" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300676" update="set"/>
+            <parameter name="com.ibm.portal.theme.aggregationmodes" type="string" update="set"><![CDATA[ssa]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred.json]]></parameter>
+            <parameter name="ibm.portal.shelf.category.json.webcontent" type="string" update="set"><![CDATA[system/WebContentCategory.json,label:shelf_socialCategory]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/]]></parameter>
+            <parameter name="com.ibm.portal.theme.dnd.sources" type="string" update="set"><![CDATA[ibmDndColumn:com.ibm.pb.dnd.layout.LayoutColumnSource:vertical,ibmDndRow:com.ibm.pb.dnd.layout.LayoutRowSource:horizontal]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/layout-templates/2ColumnEqual/]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/wps/toolbarTheme85" default="false" defaultskinref="ZK_00000000000000A0BR2B300670" domain="rel" objectid="ZJ_00000000000000A0BR2B300MA1" resourceroot="dynamicSpots" uniquename="ibm.portal.85ToolbarTheme">
+            <localedata locale="ar">
+                <title>النسق الرئيسي لخط الأدوات 8.5</title>
+                <description>النسق الرئيسي لخط الأدوات الذي يقوم بفصل الصفحة الرئيسية وخط الأدوات الى نوافذ منفصلة.</description>
+            </localedata>
+            <localedata locale="ca">
+                <title>Tema de barra d'eines 8.5</title>
+                <description>El tema de barra d'eines que separa la pàgina principal i la barra d'eines en finestres separades.</description>
+            </localedata>
+            <localedata locale="cs">
+                <title>Motiv panelu nástrojů 8.5</title>
+                <description>Motiv panelu nástrojů, který odděluje hlavní stránku a panel nástrojů do samostatných oken.</description>
+            </localedata>
+            <localedata locale="da">
+                <title>Værktøjslinjetema 8.5</title>
+                <description>Værktøjslinjetemaet, som opdeler hovedsiden og værktøjslinjen i separate vinduer.</description>
+            </localedata>
+            <localedata locale="de">
+                <title>Symbolleistenmotiv 8.5</title>
+                <description>Das Symbolleistenmotiv, das die Hauptseite und die Symbolleiste in separate Fenster unterteilt.</description>
+            </localedata>
+            <localedata locale="el">
+                <title>Θέμα γραμμής εργαλείων έκδοσης 8.5</title>
+                <description>Το θέμα γραμμής εργαλείων που διαχωρίζει την κύρια σελίδα και τη γραμμή εργαλείων σε ξεχωριστά παράθυρα.</description>
+            </localedata>
+            <localedata locale="en">
+                <title>Toolbar Theme 8.5</title>
+                <description>The Toolbar theme which separates the main page and the toolbar into separate windows.</description>
+            </localedata>
+            <localedata locale="es">
+                <title>Tema Barra de herramientas 8.5</title>
+                <description>El tema Barra de herramientas que separa la página principal y la barra de herramientas en ventanas distintas.</description>
+            </localedata>
+            <localedata locale="fi">
+                <title>Työkalurivin teema 8.5</title>
+                <description>Tämä työkalurivin teema erottaa pääsivun ja työkalurivin omiin ikkunoihinsa.</description>
+            </localedata>
+            <localedata locale="fr">
+                <title>Thème de barre d'outils 8.5</title>
+                <description>Thème de barre d'outils qui sépare la page principale et la barre d'outils dans des fenêtres distinctes.</description>
+            </localedata>
+            <localedata locale="hu">
+                <title>Eszköztár téma 8.5</title>
+                <description>Az az eszköztár téma, amely szétválasztja önálló ablakokba a fő oldalt és az eszköztárat.</description>
+            </localedata>
+            <localedata locale="it">
+                <title>Tema Barra degli strumenti 8.5</title>
+                <description>Il tema Barra degli strumenti che separa la pagina principale e la barra degli strumenti in finestre separate.</description>
+            </localedata>
+            <localedata locale="iw">
+                <title>ערכת סרגל כלים 8.5</title>
+                <description>ערכת סרגל הכלים המחלקת את הדף הראשי וסרגל הכלים לחלונות נפרדים.</description>
+            </localedata>
+            <localedata locale="ja">
+                <title>ツールバー・テーマ 8.5</title>
+                <description>メインページとツールバーを別々のウィンドウに分離するツールバー・テーマ。</description>
+            </localedata>
+            <localedata locale="ko">
+                <title>도구 모음 테마 8.5</title>
+                <description>기본 페이지와 도구 모음을 개별 창으로 구분하는 도구 모음 테마입니다.</description>
+            </localedata>
+            <localedata locale="nl">
+                <title>Werkbalkthema 8.5</title>
+                <description>Het werkbalkthema dat de hoofdpagina en de werkbalk verdeelt in twee afzonderlijke vensters.</description>
+            </localedata>
+            <localedata locale="no">
+                <title>Toolbar Theme 8.5</title>
+                <description>Verktøylinjetemaet som skiller hovedsiden og verktøylinjen i egne vinduer.</description>
+            </localedata>
+            <localedata locale="pl">
+                <title>Kompozycja paska narzędzi w wersji 8.5</title>
+                <description>Kompozycja paska narzędzi, która oddziela stronę główną i pasek narzędzi, umieszczając je w osobnych oknach.</description>
+            </localedata>
+            <localedata locale="pt">
+                <title>Tema Barra de ferramentas 8.5</title>
+                <description>O tema Barra de ferramentas que separa a página principal e a barra de ferramentas em janelas distintas.</description>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Barra de Tema 8,5</title>
+                <description>O tema da barra que separa a página principal e a barra de ferramentas em janelas separadas.</description>
+            </localedata>
+            <localedata locale="ro">
+                <title>Temă bară de unelte 8.5</title>
+                <description>Tema barei de unelte care separă pagina principală şi bara de unelte în ferestre separate.</description>
+            </localedata>
+            <localedata locale="ru">
+                <title>Тема панели инструментов 8.5</title>
+                <description>Тема панели инструментов, позволяющая разместить главную страницу и панель инструментов в разных окнах.</description>
+            </localedata>
+            <localedata locale="sk">
+                <title>Téma Lišta nástrojov 8.5</title>
+                <description>Téma Lišta nástrojov, ktorá oddeľuje hlavnú stránku a lištu nástrojov do samostatných okien.</description>
+            </localedata>
+            <localedata locale="sl">
+                <title>Tema orodne vrstice 8.5</title>
+                <description>Tema orodne vrstice, ki loči glavno stran in orodno vrstico v ločeni okni.</description>
+            </localedata>
+            <localedata locale="sv">
+                <title>Toolbar Theme 8.5</title>
+                <description>Verktygsfältstemat som separerar huvudsidan och verktygsfältet i separata fönster.</description>
+            </localedata>
+            <localedata locale="th">
+                <title>ธีมแถบเครื่องมือ 8.5</title>
+                <description>ธีมแถบเครื่องมือซึ่งแบ่งเพจหลัก และแถบเครื่องมือออกเป็นหน้าต่างต่างหาก</description>
+            </localedata>
+            <localedata locale="tr">
+                <title>Araç Çubuğu Teması 8.5</title>
+                <description>Ana sayfa ile araç çubuğunu ayrı pencerelere ayıran Araç Çubuğu teması</description>
+            </localedata>
+            <localedata locale="uk">
+                <title>Тема панелі інструментів 8.5</title>
+                <description>Тема панелі інструментів, яка розділяє вікна головної сторінки та панелі інструментів.</description>
+            </localedata>
+            <localedata locale="zh">
+                <title>工具栏主题 8.5</title>
+                <description>将主页和工具栏分成不同窗口的工具栏主题。</description>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>工具列佈景主題 8.5</title>
+                <description>該工具列佈景主題會將主頁面和工具列分開在個別視窗中。</description>
+            </localedata>
+            <localedata locale="hr">
+                <title>Tema trake s alatima 8.5</title>
+                <description>Tema trake s alatima koja odvaja glavnu stranicu i traku s alatima u zasebne prozore.</description>
+            </localedata>
+            <localedata locale="kk">
+                <title>8.5 тақырыбының құралдар тақтасы</title>
+                <description>Негізгі бет пен құралдар тақтасын әр түрлі терезелерге бөлетін ҚҰралдар тақтасы тақырыбы.</description>
+            </localedata>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300670" update="set"/>
+            <parameter name="com.ibm.portal.Hidden" type="string" update="set"><![CDATA[true]]></parameter>
+            <parameter name="com.ibm.portal.theme.aggregationmodes" type="string" update="set"><![CDATA[ssa]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_full.json]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Toolbar8.5/]]></parameter>
+            <parameter name="com.ibm.portal.theme.dnd.sources" type="string" update="set"><![CDATA[ibmDndColumn:com.ibm.pb.dnd.layout.LayoutColumnSource:vertical,ibmDndRow:com.ibm.pb.dnd.layout.LayoutRowSource:horizontal]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/Toolbar8.5/layout-templates/1Column/]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/wps/toolbarXsltTheme" default="false" domain="rel" objectid="ZJ_00000000000000A0BR2B3006F0" resourceroot="xsltTheme" uniquename="wp.theme.toolbar.xslt">
+            <localedata locale="ar">
+                <title>النسق الرئيسي XSLT</title>
+                <description>النسق الرئيسي الأمثل الى XML بناءا على علامات تبويب خط الأدوات. يمكن تطبيق النسق الرئيسي هذا اذا كانت علامة التبويب تدعم تكوين علامات تكويد XML.</description>
+            </localedata>
+            <localedata locale="ca">
+                <title>Tema XSLT</title>
+                <description>Tema optimitzat per a les pestanyes de la barra d'eines basades en XML. Aquest tema només s'ha d'aplicar si la pestanya suporta la generació d'etiquetatge XML.</description>
+            </localedata>
+            <localedata locale="cs">
+                <title>Motiv XSLT</title>
+                <description>Optimalizovaný motiv pro karty panelu nástrojů založené na XML. Tento motiv použijte pouze, pokud karta podporuje generování markupu XML.</description>
+            </localedata>
+            <localedata locale="da">
+                <title>XSLT-tema</title>
+                <description>Optimeret tema til XML-baserede værktøjslinjeskilleblade. Anvend kun dette tema, hvis skillebladet understøtter generering af XML-kode.</description>
+            </localedata>
+            <localedata locale="de">
+                <title>XSLT-Motiv</title>
+                <description>Optimiertes Motiv für XML-basierte Registerkarten der Symbolleiste. Wenden Sie dieses Motiv nur an, wenn die Registerkarte die Erstellung von XML-Markups unterstützt.</description>
+            </localedata>
+            <localedata locale="el">
+                <title>Θέμα XSLT</title>
+                <description>Βελτιστοποιημένο θέμα για καρτέλες γραμμής εργαλείων βασιζόμενες σε XML. Εφαρμόστε αυτό το θέμα μόνο αν η καρτέλα υποστηρίζει τη δημιουργία κώδικα μορφοποίησης XML.</description>
+            </localedata>
+            <localedata locale="en">
+                <title>XSLT Theme</title>
+                <description>Optimized theme for XML based toolbar tabs. Only apply this theme if the tab supports the generation of XML markup.</description>
+            </localedata>
+            <localedata locale="es">
+                <title>Tema XSLT</title>
+                <description>Tema optimizado para pestañas de barra de herramientas basada en XML. Sólo aplique este tema si la pestaña da soporte a la generación de marcación XML.</description>
+            </localedata>
+            <localedata locale="fi">
+                <title>XSLT-teema</title>
+                <description>Optimoitu teema XML-perustaisille työkalurivin välilehdille. Käytä tätä vain, jos teema tukee välilehtien luontia XML-merkintäkielellä.</description>
+            </localedata>
+            <localedata locale="fr">
+                <title>Thème XSLT</title>
+                <description>Thème optimisé pour les onglets de la barre d'outils XML. Appliquez ce thème uniquement si l'onglet prend en charge la génération du marquage XML.</description>
+            </localedata>
+            <localedata locale="hu">
+                <title>XSLT téma</title>
+                <description>Optimalizált téma az XML alapú eszköztár lapokhoz. Csak akkor alkalmazza ezt a témát, ha a lap támogatja az XML kód előállítását.</description>
+            </localedata>
+            <localedata locale="it">
+                <title>Tema XSLT</title>
+                <description>Tema ottimizzato per le schede della barra degli strumenti basate su XML. Applicare questo tema solo se la scheda supporta la creazione della markup XML.</description>
+            </localedata>
+            <localedata locale="iw">
+                <title>ערכת XSLT</title>
+                <description>ערכה ממוטבעת עבור לשוניות סרגל כלים מבוססות XML.‏ החילו ערכה זו רק אם הלשונית תומכת בהפקה של שפת-התגים XML.‏</description>
+            </localedata>
+            <localedata locale="ja">
+                <title>XSLT テーマ</title>
+                <description>XML ベースのツールバー・タブ用に最適化されたテーマ。タブが XML マークアップの生成をサポートする場合に限り、このテーマを適用してください。</description>
+            </localedata>
+            <localedata locale="ko">
+                <title>XSLT 테마</title>
+                <description>XML 기반 도구 모음 탭의 최적화된 테마입니다. 탭이 XML 마크업 생성을 지원하는 경우에만 이 테마를 적용하십시오.</description>
+            </localedata>
+            <localedata locale="nl">
+                <title>XSLT-thema</title>
+                <description>Geoptimaliseerd thema voor werkbalktabs met XML-indeling. Gebruik dit thema alleen als de tab ondersteuning biedt aan het genereren van XML-markup.</description>
+            </localedata>
+            <localedata locale="no">
+                <title>XSLT-tema</title>
+                <description>Optimalisert tema for XML-baserte verktøylinjeflipper. Bruk dette temaet bare hvis flippen støtter generering av XML-kodetypen.</description>
+            </localedata>
+            <localedata locale="pl">
+                <title>Kompozycja XSLT</title>
+                <description>Kompozycja zoptymalizowana pod kątem kart paska narzędzi opartych na języku XML. Tę kompozycję można stosować tylko wtedy, gdy karta obsługuje generowanie języka znaczników XML.</description>
+            </localedata>
+            <localedata locale="pt">
+                <title>Tema XSLT</title>
+                <description>Tema optimizado para separadores de barra de ferramentas baseados em XML. Aplique apenas este tema se o separador suportar a geração de marcação XML.</description>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Tema XSLT</title>
+                <description>Tema Otimizado para as guias da barra de ferramentas baseadas em XML. Somente aplique esse tema se a guia suporta a geração de marcação XML.</description>
+            </localedata>
+            <localedata locale="ro">
+                <title>Tema XSLT</title>
+                <description>Temă optimizată pentru filele barei de unelte bazate pe XML. Aplicaţi această temă doar dacă fila suportă generarea marcajului XML.</description>
+            </localedata>
+            <localedata locale="ru">
+                <title>Тема XSLT</title>
+                <description>Оптимизированная тема для вкладок панели инструментов на основе XML. Эту тему следует применять только в том случае, если вкладка поддерживает создание кода XML.</description>
+            </localedata>
+            <localedata locale="sk">
+                <title>Téma XSLT</title>
+                <description>Optimalizovaná téma pre záložky lišty nástrojov založené na XML. Túto tému použite iba v prípade, ak záložka podporuje generovanie značiek XML.</description>
+            </localedata>
+            <localedata locale="sl">
+                <title>Tema XSLT</title>
+                <description>Optimizirana tema za zavihke orodne vrstice, ki temeljijo na XML. To temo uveljavite le, če zavihek omogoča generiranje označb XML.</description>
+            </localedata>
+            <localedata locale="sv">
+                <title>XSLT-tema</title>
+                <description>Optimerat tema för XML-baserade verktygsfältsflikar. Använd det här temat endast om fliken stöder generering av XML-märkkod.</description>
+            </localedata>
+            <localedata locale="th">
+                <title>ธีม XSLT</title>
+                <description>ออปติไมซ์ธีมสำหรับแท็บแถบเครื่องมือที่ใช้ XML  ใช้ธีมนี้ต่อเมื่อแท็บสนับสนุนการสร้างมาร์กอัพ XML</description>
+            </localedata>
+            <localedata locale="tr">
+                <title>XSLT Teması</title>
+                <description>XML tabanlı araç çubuğu etiketler için eniyilenmiş tema. Bu temayı, etiket XML biçimleme dili oluşturmayı destekliyorsa uygulayın.</description>
+            </localedata>
+            <localedata locale="uk">
+                <title>Тема XSLT</title>
+                <description>Оптимізована тема для вкладок панелей інструментів на основі XML. Ця тема застосовується лише за умови, що вкладка підтримує створення розмітки XML.</description>
+            </localedata>
+            <localedata locale="zh">
+                <title>XSLT 主题</title>
+                <description>基于 XML 的工具栏选项卡的优化主题。仅当选项卡支持生成 XML 标记时才应用该主题。</description>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>XSLT 佈景主題</title>
+                <description>已針對 XML 型工具列標籤進行最佳化。僅當標籤支援產生 XML 標記時才套用此佈景主題。</description>
+            </localedata>
+            <localedata locale="hr">
+                <title>XSLT tema</title>
+                <description>Optimizirana tema za kartice trake s alatima bazirane na XML-u. Primijenite ovu temu samo ako kartica podržava generiranje XML markupa.</description>
+            </localedata>
+            <localedata locale="kk">
+                <title>XSLT Тақырыбы</title>
+                <description>XML негізделген құралдар тақтасы қойындылары үшін арналған оңтайландырылған тақырып. Егер қойынды XML түзетулерінің жасалуын қолдайтын болса ғана осы тақырыпты қолданыңыз.</description>
+            </localedata>
+            <parameter name="resourceaggregation.profiles.folder" type="string" update="set"><![CDATA[profiles/]]></parameter>
+            <parameter name="com.ibm.portal.Hidden" type="string" update="set"><![CDATA[true]]></parameter>
+            <parameter name="com.ibm.portal.theme.hasBaseURL" type="string" update="set"><![CDATA[true]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_default.json]]></parameter>
+            <parameter name="theme.capability.oneUI" type="string" update="set"><![CDATA[3.0.0]]></parameter>
+            <parameter name="resourceaggregation.contributions.folder" type="string" update="set"><![CDATA[contributions/]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"/>
+            <parameter name="theme.capability.xslt" type="string" update="set"><![CDATA[1.0]]></parameter>
+            <parameter name="com.ibm.portal.remote-cache-expiry" type="string" update="set"><![CDATA[2627388]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[layout-templates/2ColumnEqual/]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/wps/defaultTheme85" default="false" domain="rel" objectid="ZJ_4I9CHIC0L0GF00AM9M2JCA2000" resourceroot="dynamicSpots">
+            <localedata locale="en">
+                <title>themelist</title>
+                <description>themelist</description>
+            </localedata>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300670" update="set"/>
+            <parameter name="com.ibm.portal.friendly.name" type="string" update="set"><![CDATA[themelist]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/themelist/]]></parameter>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/M1Theme" default="false" defaultskinref="ZK_00000000000000A0BR2B300672" domain="rel" objectid="ZJ_4I9CHIC0L0GF00AM9M2JCA20K1" resourceroot="dynamicSpots">
+            <localedata locale="ar">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="ca">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="cs">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="da">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="de">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="el">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="en">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="es">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="fi">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="fr">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="hu">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="it">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="iw">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="ja">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="ko">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="nl">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="no">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="pl">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="ro">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="ru">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="sk">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="sl">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="sv">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="th">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="tr">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="uk">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="hr">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <localedata locale="kk">
+                <title>M1 Theme</title>
+                <description/>
+            </localedata>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300670" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300672" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300674" update="set"/>
+            <allowed-skin skin="ZK_00000000000000A0BR2B300676" update="set"/>
+            <parameter name="com.ibm.portal.theme.aggregationmodes" type="string" update="set"><![CDATA[ssa]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred.json]]></parameter>
+            <parameter name="com.ibm.portal.theme.dnd.sources" type="string" update="set"><![CDATA[ibmDndColumn:com.ibm.pb.dnd.layout.LayoutColumnSource:vertical,ibmDndRow:com.ibm.pb.dnd.layout.LayoutRowSource:horizontal]]></parameter>
+            <parameter name="com.ibm.portal.friendly.name" type="string" update="set"><![CDATA[wp.theme.m1theme]]></parameter>
+            <parameter name="webdav.skip.mountpoint.metadata" type="string" update="set"><![CDATA[false]]></parameter>
+            <parameter name="ibm.portal.shelf.category.json.webcontent" type="string" update="set"><![CDATA[system/WebContentCategory.json,label:shelf_socialCategory]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/wp.theme.m1theme/]]></parameter>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:/fs-type1/themes/wp.theme.m1theme/layout-templates/Foundation 1Col/]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/M1Theme" default="false" domain="rel" objectid="ZJ_4I9CHIC0L8CIF0AM9RJI7910C6" resourceroot="dynamicSpots">
+            <localedata locale="ar">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 8.5 - custom</title>
+                <description/>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="ko">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="th">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <localedata locale="kk">
+                <title>Portal 8.5</title>
+                <description/>
+            </localedata>
+            <parameter name="com.ibm.portal.theme.aggregationmodes" type="string" update="set"><![CDATA[ssa]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred.json]]></parameter>
+            <parameter name="com.ibm.portal.theme.dnd.sources" type="string" update="set"><![CDATA[ibmDndColumn:com.ibm.pb.dnd.layout.LayoutColumnSource:vertical,ibmDndRow:com.ibm.pb.dnd.layout.LayoutRowSource:horizontal]]></parameter>
+            <parameter name="com.ibm.portal.friendly.name" type="string" update="set"><![CDATA[custom.portal.85Theme]]></parameter>
+            <parameter name="ibm.portal.shelf.category.json.webcontent" type="string" update="set"><![CDATA[system/WebContentCategory.json,label:shelf_socialCategory]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/custom.portal.85Theme/]]></parameter>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal8.5/layout-templates/2ColumnEqual/]]></parameter>
+        </theme>
+    </portal>
+    <status element="all" result="ok"/>
+</request>

@@ -1,0 +1,80 @@
+.title-bar {
+	background: none !important;
+	color: #fefefe !important;
+	padding: 1.5rem 0.5rem 0rem 0rem !important;
+	// border-bottom: solid 1px #999 !important;
+}
+.title-bar-right { text-align: left !important; }
+.title-bar .menu-icon {
+	background: $black;
+	border: solid 1px #999;
+	padding: 10px;
+	margin: 5px;
+}
+ul.mobile-icons li {
+	display: inline-block;
+}
+ul.mobile-icons li img {
+	height: 33px;
+	cursor: pointer;
+}
+
+.logo{
+	display: inline-block;
+	margin-bottom: 24px;
+	.icon-logo-bcbs-ma-footer{
+		font-size: 39px;
+		color: #1176be;
+		float: left;
+		padding: 5px 1px;
+	}
+	.icon-title{
+		font-size: 14px;
+		color: #838383;
+		display: inline-block;
+		padding: 14px 0 0 10px;
+		float: left;
+	}
+}
+
+// search styling for smaller (mobile) breakpoints
+.mobile-search-field { 
+	display: none;
+	.input-group-button { 
+		width: 30px;
+		padding: 0 5px;
+	}
+	.input-group { 
+		border: 1px solid #ccc;
+		background-color: #fefefe;
+	    border-radius: 3px;
+	    box-shadow: none;
+	    transition: none;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	}
+	[type="search"] {
+		border: none;
+		box-shadow: none;
+	    transition: none;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	}
+}
+
+.dropdown-pane {
+	width: 100%;
+	border-top: solid 5px $primary-color;
+	p { font-size: 0.95rem; }
+
+	@include breakpoint(small only) {
+		position: absolute;
+		top: 0px !important;
+		left: 0px !important;
+	}
+	@include breakpoint(medium){
+		max-width: 700px;
+		padding: 30px;
+	    // margin: 20px 0 0 103px;
+	}
+}

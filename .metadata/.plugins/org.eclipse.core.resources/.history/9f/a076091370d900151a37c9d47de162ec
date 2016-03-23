@@ -1,0 +1,42 @@
+<%@ page session="false" buffer="none" %>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file="../includePortalTaglibs.jspf" %>
+<portal-core:constants/><portal-core:defineObjects/>
+
+<div class="row column">
+	<div class="row">
+ 		<div class="footer medium-10 medium-offset-1 column">
+ 			<div class="row">
+ 				<div class="columns medium-4">
+ 					<div class="footer-logo">
+ 						<a href="index.html"><img src="assets/img/logo-bcbs-ma-footer.svg" alt="BCBS MA"></a>
+ 					</div>
+ 				</div>
+ 				<div class="columns medium-8">
+ 					<p>Blue Cross Blue Shield of Massachusetts is an Independent Licensee of the Blue Cross and Blue Shield Association.<br>
+ 					® Registered Marks of the Blue Cross and Blue Shield Association.<br>
+ 					© 2015 Blue Cross and Blue Shield of Massachusetts, Inc., and Blue Cross and Blue Shield of Massachusetts HMO Blue, Inc.<br>
+ 					101 Huntington Avenue, Suite 1300, Boston, MA 02199-7611 | <strong>1-800-262-BLUE (2583)</strong></p>
+ 				</div>
+ 			</div>
+ 			<div class="row">
+ 				<div class="columns medium-8 medium-offset-4">
+ 					<div class="footer-links">
+ 						<a href="http://www.bluecrossma.com/redirect/about-us/termsofuse.html" target="_blank">Terms of Use, Privacy &amp; Security</a>  |   <a href="http://www.bluecrossma.com/redirect/about-us/accessibility.html" target="_blank">Accessibility</a>  |   <a href="#">Site Map</a>
+ 					</div><!-- footer-links -->
+					<div class="social-icons">
+						<a href="index.html"><img src="assets/img/icon-footer-facebook.png" alt="Like us on Facebook"></a>
+						<a href="index.html"><img src="assets/img/icon-footer-linkedin.png" alt="Follow us on Twitter"></a>
+						<a href="index.html"><img src="assets/img/icon-footer-twitter.png" alt="Join us on LinkedIn"></a>
+						<a href="index.html"><img src="assets/img/icon-footer-youtube.png" alt="Watch our YouTube channel"></a>
+					</div><!-- social-icons -->
+				</div><!-- column -->
+			</div><!-- row -->
+		</div>
+		<div class="column medium-1"></div>
+	</div>
+</div>
+<portal-logic:if deviceClass="smartphone">
+	<script>window.scrollTo(0, 47);</script>
+</portal-logic:if>

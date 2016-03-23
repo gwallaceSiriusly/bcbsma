@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BCBSMA_ThemeEAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="BCBSMA_Theme.war" deploy-path="/" handle="module:/resource/BCBSMA_Theme/BCBSMA_Theme">
+            <dependent-object>Module_1455663647204</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

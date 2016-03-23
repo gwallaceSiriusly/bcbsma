@@ -1,0 +1,112 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Mixins
+/****************************/
+
+
+// Font-face 
+
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+  // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
+  // @media screen and (-webkit-min-device-pixel-ratio: 0) {
+  //   @font-face {
+  //     font-family: $font-family;
+  //       src: url('#{$file-path}.svg##{$font-family}') format('svg');
+  //   }
+  // }
+}
+
+
+
+@include font-face(Open Sans Bold, '../assets/fonts/opensans-bold-webfont', 700, normal);
+@include font-face(Open Sans Regular, '../assets/fonts/opensans-regular-webfont', 400, normal);
+@include font-face(Open Sans Light, '../assets/fonts/opensans-light-webfont', 300, normal);
+@include font-face(Open Sans Semibold, '../assets/fonts/opensans-semibold-webfont', 600, normal);
+@include font-face(Open Sans Condensed Bold, '../assets/fonts/opensans-condbold-webfont', 700, normal);
+@include font-face(Open Sans Condensed Light, '../assets/fonts/opensans-condlight-webfont', 300, normal);
+
+@mixin open-sans-bold {
+  font-family: 'Open Sans Bold', arial, sans-serif;}
+@mixin open-sans-semibold {
+  font-family: 'Open Sans Semibold', arial, sans-serif;}
+@mixin open-sans-light {
+  font-family: 'Open Sans Light', arial, sans-serif;}
+@mixin open-sans-regular {
+  font-family: 'Open Sans Regular', arial, sans-serif;}
+@mixin open-sans-condensed-bold {
+	font-family: 'Open Sans Condensed Bold', arial, sans-serif;}
+	@mixin open-sans-condensed-light {
+	font-family: 'Open Sans Condensed Light', arial, sans-serif;}
+
+@mixin accordion-title($background-color, $color) {
+	background-color: $background-color;
+	color: $color;
+	padding: 1.625rem !important;
+	margin-bottom: 0rem; 
+	display: block;
+	border-bottom: none;
+	position: relative;
+	&:hover, &:focus {
+		background-color: lighten($background-color, .1);
+		color: $color;
+	}
+	&::before {
+    content: '';
+    background-image: url("../img/icon-arrow-down-white.svg");
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    margin-top: -1rem;
+    background-size: 2.25rem 2.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
+	}
+	@media only screen and (min-width: 640px) {
+			padding: 2.25rem !important;
+			&::before {
+				right: 2.25rem;
+			}
+	}
+}
+
+// Scrollbar 
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+// Care Steps Arrows
+@mixin arrow-care-steps($background, $width, $height) {
+	background: url($background) no-repeat scroll center center transparent;
+	width: $width;
+	height: $height;
+	background-size: $width $height;
+	-moz-background-size: $width $height;
+	-webkit-background-size: $width $height;
+	-o-background-size: $width $height;
+}

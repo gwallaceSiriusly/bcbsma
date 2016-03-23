@@ -1,0 +1,21 @@
+.video-box {
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
+    background: $light-gray;
+    border: solid 5px #fff;
+        @include breakpoint(medium){ 
+            border: solid 10px #fff;
+        }
+        p { 
+            @include breakpoint(large){
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+        video {
+            background: $gray;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+}

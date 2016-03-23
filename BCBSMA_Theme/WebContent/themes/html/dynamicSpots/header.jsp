@@ -1,0 +1,21 @@
+<%@ page session="false" buffer="none" %> 
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="/WEB-INF/tld/portal-internal.tld" prefix="portal-internal" %>
+<%@ include file="../includePortalTaglibs.jspf" %>
+<portal-core:constants/><portal-core:defineObjects/>
+<%-- Renders links for Login/Logout and Help that are shown in the banner --%>
+<portal-core:lazy-set var="selectionPath" elExpression="wp.selectionModel.selectionPath"/>
+<portal-core:lazy-set var="themeConfig" elExpression="wp.themeConfig"/>
+
+<portal-logic:if deviceClass="smartphone/tablet"><div class="wpthemeMobile"></portal-logic:if>
+<div class="title-bar-left">
+	<div class="logo">
+		<c:set var="node" value="${selectionPath[1]}"/>
+		<c:set var="nodeID" value="${wp.identification[node]}"/>
+		<a href="?uri=nm:oid:${nodeID}" alt="<portal-fmt:out>${node.title}</portal-fmt:out>">
+			<span class="icon-logo-bcbs-ma-footer"></span>
+			<span class="icon-title"></span>
+		</a>
+	</div>
+</div>

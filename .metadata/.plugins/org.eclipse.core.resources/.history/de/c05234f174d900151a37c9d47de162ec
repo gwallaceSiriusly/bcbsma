@@ -1,0 +1,251 @@
+<!-- jsf:pagecode language="java" location="/src/pagecode/AllView.java" --><!-- /jsf:pagecode -->
+<div  xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core"
+ xmlns:h="http://java.sun.com/jsf/html" 
+ xmlns:portlet="http://java.sun.com/portlet_2_0"  >  
+	<div class="row collapse">
+		<div class="block-search large-6 columns">
+			<div class="block-search-content">
+				<h1 class="title-greetings">Welcome Back Catherine</h1>
+				<h2 class="title-greetings-lrg">How can we help?</h2>
+				<div class="search-bar">
+					<div class="input-group">
+						<input class="input-group-field" placeholder="Search for care, conditions, providers..." type="search"/>
+						<a class="input-group-button">
+							<span class="icon-icon-search-blue"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	  		
+  		<div class="size-tablet" data-set="moving-purple-content"></div><!-- Purple blocks move here for the medium breakpoint -->
+  		<div class="size-desktop" data-set="moving-blue-content">
+  			<div class="moving-blue-blocks append">
+  				<div class="small-12 large-6 column">
+  					<a href="#" class="block-blue small-12 medium-6 columns">
+  						<div class="medium-10 large-12 columns">
+  							<p>You’ve met your <strong>individual deductible</strong> for this year. See plan details.</p>
+  						</div>
+  						<div class="medium-2 large-12 columns">
+  							<div class="block-arrow"><span class="icon-icon-arrow-right-blue"></span></div>
+  						</div>
+  					</a>
+  					<a href="#" class="block-blue small-12 medium-6 columns">
+  						<div class="medium-10 large-12 columns">
+  							<p>Review the claim from your recent visit with <strong>Dr. Jones</strong> on 4/5/15.</p>
+  						</div>
+  						<div class="medium-2 large-12 columns">
+  							<div class="block-arrow"><span class="icon-icon-arrow-right-blue"></span></div>
+  						</div>
+  					</a>
+  					<a href="#" class="block-blue small-12 medium-6 columns">
+  						<div class="medium-10 large-12 columns">
+  							<p>Would you like to change your <strong>Primary Care Physician (PCP)</strong>? </p>
+  						</div>
+  						<div class="medium-2 large-12 columns">
+  							<div class="block-arrow"><span class="icon-icon-arrow-right-blue"></span></div>
+  						</div>
+  					</a>
+  					<a href="#" class="block-blue small-12 medium-6 columns">
+  						<div class="medium-10 large-12 columns">
+  							<p>How much will an <strong>MRI</strong> cost you?</p>
+  						</div>
+  						<div class="medium-2 large-12 columns">
+  							<div class="block-arrow"><span class="icon-icon-arrow-right-blue"></span></div>
+  						</div>
+  					</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row collapse">
+		<!-- BENNEFITS -->
+		<div class="block-white medium-6 large-3 columns">
+		
+			<div class="block-header">
+				<div class="small-8 medium-6 large-12 columns">
+					<a href="#">
+						<span class="icon icon-icons-benefits"></span>
+						<h2 class="title-section">BENEFITS</h2>
+					</a>
+				</div>
+				<div class="small-4 medium-6 columns">
+			<span class="click-arrow-down icon-icon-arrow-down-blue"></span> 
+					<a class="view-more" href="#">View Benefits ></a>
+				</div>
+			</div>
+			<div class="block-content">
+				<div class="c100 p84 small green float-left">
+			<span>84<sup>%<sup></sup></sup></span>
+			<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+			</div>
+				</div>
+				<div class="block-content-section">
+					<p><strong>Individual Deductible:</strong></p> 
+					<p><span class="paid">$1,256 paid</span> as of 5/5/15</p>
+					<div class="vertical-space-15"></div>
+					<p><a><span class="count">1</span> Wellness visit available</a></p>
+					<p><a><span class="count">1</span> Eye Exam available</a></p>
+	
+				</div>
+				<div class="button-bar">
+					<a class="button expanded text-left dark-gray btn-icon" href="#">VIEW BENEFITS <span class="float-right icon-icon-arrow-right-blue"></span></a>
+				</div>
+			</div>
+			
+		</div>
+			
+		<!-- CARE -->
+		<div class="block-white medium-6 large-3 columns">
+			<div class="block-header">
+				<div class="small-8 medium-6 large-12 columns">
+					<a href="#">
+						<span class="icon icon-icons-care-home"></span>
+						<h2 class="title-section">CARE</h2>
+					</a>
+				</div>
+				<div class="small-4 medium-6 columns">
+					<span class="click-arrow-down icon-icon-arrow-down-blue"></span> 
+					<a class="view-more" href="#">View Care ></a>
+				</div>
+			</div>
+			<div class="block-content">
+				<div class="block-content-section">
+					<p><a href="#">Dr. Linton’s office on 5/5/15</a></p>
+					<p>1 claim pending</p>
+				</div>
+				<div class="block-content-section">
+					<p><a href="#">Dr. Jones’s office on 4/5/15</a></p>
+					<p class="display-inline">1 claim pending</p>
+					<p class="display-inline">1 claim completed</p>
+				</div>
+				<div class="button-bar">
+					<a class="button expanded text-left dark-gray btn-icon" href="#">VIEW CARE  <span class="float-right icon-icon-arrow-right-blue"></span></a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- SPENDING -->
+		<div class="block-white medium-6 large-3 columns">
+			<div class="block-header">
+				<div class="small-8 medium-6 large-12 columns">
+				<a href="#">
+					<span class="icon icon-icons-spending-home"></span>
+					<h2 class="title-section">SPENDING</h2>
+				</a>
+				</div>
+				
+				<div class="small-4 medium-6 columns">
+					<span class="click-arrow-down icon-icon-arrow-down-blue"></span> 
+					<a class="view-more" href="#">View Spending ></a>
+				</div>
+			</div>
+			<div class="block-content">
+				<div class="block-content-section spending-cost small-12 medium-7 large-12 columns">
+					<p><a href="#">Total Health Costs</a></p>
+					<div class="small-12 large-6 columns">
+						<p><strong><span class="cost">$4,930.23</span></strong></p>
+						<div class="progress-container sml">
+							<div class="progress" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+								<div class="progress-meter orange" style="width:75%;"></div>
+							</div>
+						</div>
+					</div>
+						<div class="small-12 large-6 columns">
+							<p class="display-inline">Plan: 75% </p> <p class="display-inline">You: 25%</p>
+						</div>
+				</div>
+				<div class="block-content-section spending-balance small-12 medium-5 large-12 columns">
+					<p><a href="#">HSA Balance: <span class="balance">$1323.45</span></a></p>
+				</div>
+				<div class="block-content-section spending-balance small-12 medium-5 large-12 columns">
+					<p><a href="#">FSA Balance: <span class="balance">$212.02</span></a></p>
+				</div>
+				<div class="button-bar">
+					<a class="button expanded text-left dark-gray btn-icon" href="#">VIEW SPENDING <span class="float-right icon-icon-arrow-right-blue"></span></a>
+				</div>
+			</div>
+		</div>
+			
+		<!-- PROVIDERS -->
+		<div class="block-white medium-6 large-3 columns">
+			<div class="block-header">
+				<div class="small-8 medium-6 large-12 columns">
+					<a href="#">
+						<span class="icon icon-icons-providers-home"></span>
+						<h2 class="title-section">PROVIDERS</h2>
+					</a>
+				</div>
+				<div class="small-4 medium-6 columns">
+					<span class="click-arrow-down icon-icon-arrow-down-blue"></span> 
+					<a class="view-more" href="#">View Providers ></a>
+				</div>
+			</div>
+			<div class="block-content">
+				<div class="block-content-section"> 
+					<p>PCP:</p> 
+					<p class="display-inline"><a href="#">Dr. Edgar Linton </a></p>
+					<p class="display-inline"><a class="link" href="#">Change PCP  <span class="icon-icon-arrow-right-blue"></span> </a></p>
+				</div>
+				<div class="block-content-section"> 
+					<p>Recent:</p>
+					<p class="display-inline"><a href="#">Dr. Jane Austen </a> </p> <p class="display-inline"><a href="#">Dr. Indiana Jones </a> </p>
+				</div>
+				<div class="button-bar">
+					<a class="button expanded text-left dark-gray btn-icon" href="#">VIEW PROVIDERS <span class="float-right icon-icon-arrow-right-blue"></span></a>
+				</div>
+			</div>
+		</div>
+		<div class="size-mobile" data-set="moving-blue-content"></div><!-- Blue blocks move here for the small breakpoint -->
+		<div class="size-tablet" data-set="moving-blue-content"></div><!-- Blue blocks move here for the medium breakpoint -->
+	</div>
+	<div class="row collapse">
+		<a href="#" class="block-green medium-6 large-3 columns">
+			<div class="medium-10 large-12 columns">
+				<p>View programs that can help you <strong>stay healthy</strong>.</p>
+			</div>
+			<div class="medium-2 large-12 columns" href="#">
+				<div class="block-arrow">
+					<span class="icon-icon-arrow-right-blue"></span> 
+				</div>
+			</div>
+		</a>
+		<a href="#" class="block-green  medium-6 large-3 columns">
+			<div class="medium-10 large-12 columns">
+				<p>Find the <strong>discounts</strong> you didn’t know you had.</p>
+			</div>
+			<div class="medium-2 large-12 columns" href="#">
+				<div class="block-arrow">
+					<span class="icon-icon-arrow-right-blue"></span> 
+				</div>
+			</div>
+		</a>
+	  		
+  		<div class="size-desktop" data-set="moving-purple-content">
+  			<div class="append">
+  				<div class="block-contact block-purple small-12 large-6 columns">
+  					<div class="block-contact-info">
+  						<div class="medium-6 large-6 columns">
+  							<h2 class="title-contact-plus">GET ANSWERS.</h2> 
+  							<h3 class="title-contact">CALL OR MESSAGE US ANYTIME.</h3>
+  						</div>
+  						<div class="block-contact-links medium-6 large-6 columns">
+  							<div class="medium-8 large-12 columns">
+  									<a href="#" class="text-contact"> 
+  										<i class="icon-icons-home-contact-arrow"></i> Send <span>us</span> a message</a>
+  									<a href="#" class="text-contact">
+  										<i class="icon-icons-home-contact-arrow"></i> <span>Call us at</span> 1-800-123-1234</a>
+  								</div>
+  							<div class="medium-4 large-12 columns">
+  									<a href="#" class="icon-social"><span class="icon-icons-home-contact-facebook"></span></a> 
+  									<a href="#" class="icon-social"><span class="icon-icons-home-contact-twitter"></span></a>
+  								</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+</div>

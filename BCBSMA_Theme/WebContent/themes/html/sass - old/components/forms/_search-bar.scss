@@ -1,0 +1,46 @@
+/******** Search Bar *********/
+
+.search-bar {
+.input-group-button { 
+		width: 40px;
+		padding: 0 5px;
+	}
+	.input-group { 
+		background-color: $white;
+	  box-shadow: none;
+	  transition: none;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	}
+	[type="search"] {
+		padding: 1rem 0.5rem 0.5rem;
+		border: none;
+		box-shadow: none;
+	  transition: none;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  font-size: 18px !important;
+	  	line-height: 1em;
+			color: $dark-blue;
+	  &::-webkit-input-placeholder {
+	  	font-size: 18px !important;
+	  	line-height: 1em;
+			color: $dark-blue;
+	  } 
+	  &:-moz-input-placeholder {
+	  	font-size: 18px !important;
+	  	line-height: 1em;
+			color: $dark-blue;
+	  }
+	  &::-moz-input-placeholder {
+	  	font-size: 18px !important;
+	  	line-height: 1em;
+			color: $dark-blue;
+	  }
+	  &:-ms-input-placeholder {
+			font-size: 18px !important;
+			line-height: 1em;
+			color: $dark-blue;
+		}
+	}
+}

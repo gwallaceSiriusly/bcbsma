@@ -1,0 +1,136 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Subheader
+/****************************/
+
+.subheader{
+	@include clearfix;
+
+	&.block-search {
+		display: none !important;
+		height: inherit;
+
+		a {
+			color: $white;
+			display: inline-block;
+			margin: 0 0 10px;
+			&:first-child:after {
+				content: "|";
+				padding: 0 5px 0 7px;
+			}
+		}
+		.columns, .columns {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.block-search-content {
+			@include clearfix;
+			margin: 0;
+			position: relative;
+			top: inherit;
+			left: inherit;
+			.greetings {
+				@include clearfix;
+			}
+			.title-greetings-lrg { /* Set this in typography */
+				font-size: 34px;
+			}
+			.input-group {
+				margin-bottom: 0;
+			}
+		}
+		.search-bar {
+			max-width: 100% !important;
+			a {display: table-cell;}
+		}
+	}
+	@media only screen and (min-width: 640px) {
+		&.block-search {
+			display: block !important;
+			.links {
+				max-width: 100px;
+				float: left;
+				margin-right: 20px;
+			}
+			a {
+				border-right: 1px solid rgba($white, 0.3);
+				display: block;
+				padding: 10px;
+				margin-bottom: 0;
+				&:first-child:after {
+					content: "";
+					padding: 0;
+				}
+				&:first-child {
+					border-bottom: 1px solid rgba($white, 0.3);
+				}
+			}
+			.block-search-content {
+				.title-greetings-lrg {
+					margin: .5rem;
+				}
+				.search-bar {
+					margin-top: 1rem;
+					max-width: 288px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 865px) {
+		&.block-search {
+
+			.block-search-content {
+				.title-greetings-lrg {
+					margin-top: 1.65rem; 
+				}
+				.search-bar {
+					margin-top: 1.75rem;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 940px) {
+		&.block-search {
+			background-position: right -20px;
+			a {
+				padding: 10px;
+			}
+			.block-search-content {
+				.title-greetings-lrg {
+					font-size: 54px;
+					margin-top: -.5rem;
+				}
+				.search-bar, .greetings {
+					float: left;
+				}
+				.greetings {
+					margin-top: 8px;
+					padding-right: 30px;
+				}
+
+			}
+		}	
+	}
+	@media only screen and (min-width: 1024px) {
+		&.block-search {
+			.block-search-content {
+				.title-greetings-lrg { /* Set this in typography */
+					font-size: 54px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1223px) {
+		&.block-search {
+			.block-search-content {
+				.search-bar {
+					max-width: 513px;
+					margin-top: 1.75rem;
+				}
+				.title-greetings-lrg { /* Set this in typography */
+					margin-top: 1rem;
+				}
+			}
+		}
+	}
+}

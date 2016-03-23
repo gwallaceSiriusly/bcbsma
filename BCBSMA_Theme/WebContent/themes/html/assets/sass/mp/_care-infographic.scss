@@ -1,0 +1,47 @@
+/******** Care Infographic *********/
+
+.care-infographic {
+	.page-titles {
+		margin-bottom: 1.5rem;
+		text-align: center;
+	}
+	.care-step {
+		margin-bottom: 10px;
+		text-align:center;
+	}
+	.title-care-infographic {
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.title-care-info-step {
+		color: $body-font-color;
+		text-transform: uppercase;
+		line-height: 1.4em;
+		margin-bottom: 5px;
+	}
+	.arrow-care-steps {
+    @include arrow-care-steps($arrow-care-mobile, 20px, 37px);
+    margin: 0 auto 1.25rem;
+    &.complete {
+    	@include arrow-care-steps($arrow-care-mobile-complete, 20px, 37px);
+    }
+	}
+	.text-care-info-description {
+		color: $body-font-color;
+	}
+	@media only screen and (min-width: 640px) {
+		.page-titles { margin-bottom: 2.25rem; }
+		.care-step {
+			min-height: 150px;
+			text-align: left;
+		}
+		.arrow-care-steps {
+			@include arrow-care-steps($arrow-care-desktop, 106px, 20px);
+			margin: 0 0 1.25rem;
+			&.complete {
+				@include arrow-care-steps($arrow-care-desktop-complete, 106px, 20px);
+			}
+		}
+	}
+}

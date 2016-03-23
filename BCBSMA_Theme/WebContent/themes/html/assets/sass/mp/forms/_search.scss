@@ -1,0 +1,83 @@
+/***************************
+/ Blue Cross Blue Shield - MEG 
+/ Forms - Search
+/****************************/
+
+.search {
+	.input-group-button {
+		width: 40px;
+		padding: 0 5px;
+	}
+	.input-group { 
+		background-color: $white;
+	  box-shadow: none;
+	  transition: none;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	}
+		[type="search"] {
+		border: none;
+		box-shadow: none;
+	  transition: none;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  font-size: 12px !important;
+	  	line-height: 1em;
+			color: $body-font-color;
+	  &::-webkit-input-placeholder {
+	  	font-size: 12px !important;
+	  	line-height: 1em;
+			color: $body-font-color;
+	  } 
+	  &:-moz-input-placeholder {
+	  	font-size: 12px !important;
+	  	line-height: 1em;
+			color: $body-font-color;
+	  }
+	  &::-moz-input-placeholder {
+	  	font-size: 12px !important;
+	  	line-height: 1em;
+			color: $body-font-color;
+	  }
+	  &:-ms-input-placeholder {
+			font-size: 12px !important;
+			line-height: 1em;
+			color: $body-font-color;
+		}
+	}
+}
+
+.in-content-search {
+	@include clearfix;
+	.columns, .column {
+		&:first-child {
+			margin-bottom: 1.625rem;
+		}
+		a {
+			margin: 0;
+			font-size: .8125rem;
+			font-weight: 100;
+		}
+	}
+	@media only screen and (min-width: 640px) {
+		.columns, 
+		.column {
+			padding: 0 1rem 0 0 !important;
+			margin-bottom: 0;
+			&:nth-child(2) {
+				padding: 0 !important;
+			}
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+		.columns, .column {
+			&:nth-child(2) {
+				padding: 0 1rem 0 0 !important;
+			}
+		}
+		.columns:nth-child(3),
+		.column:nth-child(3) {
+			margin-top: 0.5rem;
+		}
+	}
+}

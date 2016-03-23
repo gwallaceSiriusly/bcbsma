@@ -1,0 +1,91 @@
+/*
+Error: Undefined mixin 'open-sans-bold'.
+        on line 102 of /home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss, in `open-sans-bold'
+        from line 102 of /home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss
+
+97: 		top: 0;
+98: 		width: 4.25em;
+99:     line-height: 4.1em;
+100:     font-size: .25em;
+101:     letter-spacing: -0.03em;;
+102: 		@include open-sans-bold;
+103: 		color: $basic-font-color;
+104: 		display: block;
+105: 		text-align: center;
+106: 		white-space: nowrap;
+107: 		@include transition-property(all);
+
+Backtrace:
+/home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss:102:in `open-sans-bold'
+/home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss:102
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:98:in `block in with_mixin'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:98:in `with_mixin'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `map'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `map'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/root_node.rb:20:in `render'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:278:in `render'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/bin/compass:44:in `call'
+/home/basic_user/.rvm/gems/ruby-2.2.1/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/home/basic_user/.rvm/gems/ruby-2.2.1/bin/compass:23:in `load'
+/home/basic_user/.rvm/gems/ruby-2.2.1/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'open-sans-bold'.\A         on line 102 of /home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss, in `open-sans-bold'\A         from line 102 of /home/basic_user/Documents/workspace/bcbsma/BCBSMA_Theme/WebContent/themes/html/assets/sass/vendor/percent-circle/circle.scss\A \A 97: 		top: 0;\A 98: 		width: 4.25em;\A 99:     line-height: 4.1em;\A 100:     font-size: .25em;\A 101:     letter-spacing: -0.03em;;\A 102: 		@include open-sans-bold;\A 103: 		color: $basic-font-color;\A 104: 		display: block;\A 105: 		text-align: center;\A 106: 		white-space: nowrap;\A 107: 		@include transition-property(all);"; }

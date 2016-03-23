@@ -1,0 +1,65 @@
+.button {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.8em 1.25em 0.8em !important;
+
+    &.disabled { 
+        opacity: 1 !important;
+        background: #8898a0;
+        color: #c4ccd0;
+    }
+
+    &.large { font-size: 16px !important; }
+    
+    &.dropdown::after {
+        content: url(../img/icons-dropdownArrow.svg) !important;
+        border: none !important;
+        top: 0em !important;
+    }
+    &.btn-icon {
+        span {
+            img { 
+                height: 20px;
+                margin-top: -4px;
+            }
+        }
+    }
+    &.text-left { 
+        text-align: left;
+      }
+    &.dark-gray { 
+    	color: $white;
+    	background-color: $dark-gray;
+        &:hover {
+            // background-color: lighten($dark-gray, 15%);
+            background-color: darken($dark-gray, 15%);
+            color: $white;
+        }
+
+    }
+    &.blue-on-blue {
+        color: $primary-color;
+        background-color: $light-blue;
+        &:hover {
+            // background-color: lighten($dark-gray, 15%);
+            background-color: darken($light-blue, 15%);
+            color: $primary-color;
+        }
+    }
+
+
+    &.white { 
+    	background-color: $white;
+    	color: $body-font-color;
+    	-webkit-box-shadow: 1px 1px 5px 0px rgba(150,150,150,1);
+		-moz-box-shadow: 1px 1px 5px 0px rgba(150,150,150,1);
+		box-shadow: 1px 1px 5px 0px rgba(150,150,150,1);
+         &:hover {
+            background-color: $light-gray;
+            color: $body-font-color;
+        }
+
+        // $button-background-hover: scale-color($button-background, $lightness: -15%)
+    }
+}
+

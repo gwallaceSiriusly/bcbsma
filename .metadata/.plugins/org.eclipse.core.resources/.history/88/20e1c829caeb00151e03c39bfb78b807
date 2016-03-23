@@ -1,0 +1,307 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCBSMA MEG | Home Screen</title>
+    <link rel="stylesheet" href="s/app.css">
+  </head>
+  <body>
+<body>
+	<header>
+		<div class="title-bar show-for-medium">
+			<div class="row">
+				
+<div class="title-bar-left">
+	<div class="logo">
+		
+		<a href="?uri=nm:oid:Z6_00000000000000A0BR2B300GO2" alt="Home">
+			<span class="icon-logo-bcbs-ma-footer"></span>
+			<span class="icon-title"></span>
+		</a>
+	</div>
+</div><div class="title-bar-right">
+					<div class="main-navigation">
+						<nav class="main-menu">
+							<a class="menu-close fi-x"></a>
+							
+<ul class="vertical medium-horizontal menu align-right">
+	
+			<li>
+				<a href="?uri=nm:oid:Z6_4I9CHIC0L8HH60AED7V5SG1O43" class="wpthemeLeft"><span lang="en" dir="ltr">Rational Components</a>
+				
+
+
+<ul class="children">
+	
+		<li class="">
+			<a href="?uri=nm:oid:Z6_4I9CHIC0LGFJ50A9FLF7B230G2" class="wpthemeLeft">
+				<span lang="en" dir="ltr">
+					All
+			</a>
+			
+			
+		</li>
+	
+		<li class="">
+			<a href="?uri=nm:oid:Z6_4I9CHIC0L8HH60AED7V5SG1OM0" class="wpthemeLeft">
+				<span lang="en" dir="ltr">
+					hero
+			</a>
+			
+			
+		</li>
+	
+		<li class="">
+			<a href="?uri=nm:oid:Z6_4I9CHIC0L8HH60AED7V5SG1OA1" class="wpthemeLeft">
+				<span lang="en" dir="ltr">
+					testCopy
+			</a>
+			
+			
+		</li>
+	
+		<li class="">
+			<a href="?uri=nm:oid:Z6_4I9CHIC0L8HH60AED7V5SG1O20" class="wpthemeLeft">
+				<span lang="en" dir="ltr">
+					testList
+			</a>
+			
+			
+		</li>
+	
+		<li class="">
+			<a href="?uri=nm:oid:Z6_4I9CHIC0L8HH60AED7V5SG1OK1" class="wpthemeLeft">
+				<span lang="en" dir="ltr">
+					sidebarCopy
+			</a>
+			
+			
+		</li>
+	
+
+</ul>
+				
+			</li>
+		
+			<li>
+				<a href="?uri=nm:oid:Z6_00000000000000A0BR2B300GS0" class="wpthemeLeft"><span lang="en" dir="ltr">Welcome</a>
+				
+				
+			</li>
+		
+			<li>
+				<a href="?uri=nm:oid:Z6_00000000000000A0BR2B300AT6" class="wpthemeLeft"><span lang="en" dir="ltr">Getting Started</a>
+				
+				
+			</li>
+		
+</ul>
+
+</nav>
+					</div>
+				</div>
+			</div><!-- row -->
+		</div>
+	</header>
+	<div id="main">
+	  	<div class="row collapse">
+	  		<div class="block-breadcrumbs large-6 columns">
+				
+
+<div class="asa.page" id="asa.page" style="display:none;">
+	<span class="asa.page.id">Z6_00000000000000A0BR2B300AT6</span>
+
+	
+
+</div>
+
+
+	<div class=" wpthemeLeft">
+		
+						<span lang="en" dir="ltr">Content Root</span>
+					
+					<span class="wpthemeCrumbTrailSeparator">&gt;</span>
+				
+						<span lang="en" dir="ltr">Home</span>
+					
+					<span class="wpthemeCrumbTrailSeparator">&gt;</span>
+				
+						<strong><span class="wpthemeSelected" lang="en" dir="ltr">Getting Started</span></strong>
+					
+	</div>
+	<!-- required - do not remove -->
+				<div style="display:none" id="portletState">{}</div></div>
+		</div>
+		<div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" >	
+			<div class="hiddenWidgetsDiv">
+	<!-- widgets in this container are hidden in the UI by default -->
+	<div class='component-container wpthemeFull ibmDndRow wpthemeCol12of12 hiddenWidgetsContainer id-Z7_00000000000000A0BR2B300AT5' name='ibmHiddenWidgets' ></div><div style="clear:both"></div>
+</div>
+<!-- this layout has one main container -->
+<div class="wptheme1Col">
+	<div class='component-container wpthemeFull wpthemeLeft wpthemeCol ibmDndColumn wpthemeCol12of12 wpthemePrimary id-Z7_00000000000000A0BR2B300AT3' name='ibmMainContainer' ><div class='component-control id-Z7_4I9CHIC0LGFJ50A9FLF7B230O0' ><span id="Z7_4I9CHIC0LGFJ50A9FLF7B230O0"></span><section class="ibmPortalControl wpthemeNoSkin a11yRegionTarget" role="region" >
+	<!-- marks the node the analytics tags for this portlet will be placed in -->
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_4I9CHIC0LGFJ50A9FLF7B230O0" style="display:none;">
+		<span class="asa.portlet.id">Z7_4I9CHIC0LGFJ50A9FLF7B230O0</span>
+
+		
+
+	</div>
+	
+<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+	<div style="position:relative; z-index: 1;">
+		<div class="analytics.overlay" ></div>
+	</div>
+    <!-- Hide the text of the title, but still provide the lm-dynamic-title container for accessing the dynamic title -->
+    <span class="wpthemeAccess">
+ 		<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="en" dir="ltr">All</span></span>
+	</span>
+    <div class="wpthemeOverflowAuto"> <!-- lm:control dynamic spot injects markup of layout control -->
+        <!-- jsf:pagecode language="java" location="/src/pagecode/AllView.java" --><!-- /jsf:pagecode --><div>  
+	<div class="row collapse">
+		<div class="large-12 columns">
+			 <div class="subheader block-search"> <div class="block-search-content small-12 columns"> <div class="greetings small-12 medium-6 columns"> <div class="links"> <a href="#"><img src="assets/img/icon-back-home.svg" alt="Arrow Orange" /> Home</a> <a href="#">Contact us</a> </div> <h2 class="title-greetings-lrg">How can we help?</h2> </div> <div class="search-bar small-12 medium-6 columns"> <div class="input-group"> <input class="input-group-field" type="search" placeholder="Search for care, conditions, providers..." /> <a class="input-group-button"> <img src="assets/img/icon-search-blue.svg" width="20" /> </a> </div> </div> </div> </div>
+		</div>
+  	</div> 
+	<div class="row collapse">
+		<div class="large-12 columns">
+<ul class="accordion" data-accordion>
+  <li class="accordion-item is-active" data-accordion-item>
+    <a href="#" class="accordion-title">Accordion 1</a>
+    <div class="accordion-content" data-tab-content>
+      <table>
+      	<tr>
+      		<th rowspan="2" colspan="2">
+      			Services
+      		</th>
+      		<th rowspan="2">
+      			Combined Benefit Limit
+      		</th>
+      		<th colspan="2">
+      			In-Network
+      		</th>
+      		<th colspan="2">
+      			Out-of-Network
+      		</th>
+      	</tr>
+      	<tr>
+      		<th>
+      			Benefit Limit
+      		</th>
+      		<th>
+      			Member Cost
+      		</th>
+      		<th>
+      			Benefit Limit
+      		</th>
+      		<th>
+      			Member Cost
+      		</th>
+      	</tr>
+      	<tr>
+      		<td rowspan="2">Ambulance Services</td>
+      		<td>Emergency transport</td>
+      		<td>None</td>
+      		<td></td>
+      		<td>20% coinsurance (deductible does not apply)</td>
+      		<td></td>
+      		<td>20% coinsurance (deductible does not apply) </td>
+      	</tr>
+      	<tr>
+      		<td>Other medically necessary transport</td>
+      		<td>None</td>
+      		<td></td>
+      		<td>20% coinsurance (deductible does not apply)</td>
+      		<td></td>
+      		<td>20% coinsurance (deductible does not apply) </td>
+      	</tr>
+      </table>
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#panel2a" class="accordion-title">Accordion 2</a>
+    <div id="panel2a" class="accordion-content" data-tab-content>
+      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#panel3a" class="accordion-title">Accordion 3</a>
+    <div id="panel3a" class="accordion-content" data-tab-content>
+      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#panel2a" class="accordion-title">Accordion 2</a>
+    <div id="panel2a" class="accordion-content" data-tab-content>
+      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#panel3a" class="accordion-title">Accordion 3</a>
+    <div id="panel3a" class="accordion-content" data-tab-content>
+      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </li>
+</ul>
+
+          
+          
+		</div>
+  	</div>
+</div></div>
+</section> </div></div></div>
+</div><!--end main content-->
+	</div>
+	
+	<footer id="footer">
+		
+
+<div class="row column">
+	<div class="row">
+ 		<div class="footer medium-10 medium-offset-1 column">
+ 			<div class="row">
+ 				<div class="columns medium-4">
+ 					<div class="footer-logo">
+ 						<a href="index.html">
+ 							<span class="icon-logo-bcbs-ma-footer"></span>
+							<span class="icon-title"></span></a>
+ 					</div>
+ 				</div>
+ 				<div class="columns medium-8">
+ 					<p>Blue Cross Blue Shield of Massachusetts is an Independent Licensee of the Blue Cross and Blue Shield Association.<br>
+ 					® Registered Marks of the Blue Cross and Blue Shield Association.<br>
+ 					© 2015 Blue Cross and Blue Shield of Massachusetts, Inc., and Blue Cross and Blue Shield of Massachusetts HMO Blue, Inc.<br>
+ 					101 Huntington Avenue, Suite 1300, Boston, MA 02199-7611 | <strong>1-800-262-BLUE (2583)</strong></p>
+ 				</div>
+ 			</div>
+ 			<div class="row">
+ 				<div class="columns medium-8 medium-offset-4">
+ 					<div class="footer-links">
+ 						<a href="http://www.bluecrossma.com/redirect/about-us/termsofuse.html" target="_blank">Terms of Use, Privacy &amp; Security</a>  |   <a href="http://www.bluecrossma.com/redirect/about-us/accessibility.html" target="_blank">Accessibility</a>  |   <a href="#">Site Map</a>
+ 					</div><!-- footer-links -->
+					<div class="social-icons">
+						<a href="index.html"><img src="/BCBSMA_Theme/themes/html/img/icon-footer-facebook.png" alt="Like us on Facebook"></a>
+						<a href="index.html"><img src="/BCBSMA_Theme/themes/html/img/icon-footer-linkedin.png" alt="Follow us on Twitter"></a>
+						<a href="index.html"><img src="/BCBSMA_Theme/themes/html/img/icon-footer-twitter.png" alt="Join us on LinkedIn"></a>
+						<a href="index.html"><img src="/BCBSMA_Theme/themes/html/img/icon-footer-youtube.png" alt="Watch our YouTube channel"></a>
+					</div><!-- social-icons -->
+				</div><!-- column -->
+			</div><!-- row -->
+		</div>
+		<div class="column medium-1"></div>
+	</div>
+</div>
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/foundation/foundation.core.js"></script>
+<script src="assets/js/foundation/foundation.util.mediaQuery.js"></script>
+<script src="assets/js/foundation/foundation.util.keyboard.js"></script>
+<script src="assets/js/foundation/foundation.util.motion.js"></script>
+<script src="assets/js/foundation/foundation.accordion.js"></script>
+<script src="assets/js/app.js"></script>
+<!-- page footer -->
+	</footer>
+</body>

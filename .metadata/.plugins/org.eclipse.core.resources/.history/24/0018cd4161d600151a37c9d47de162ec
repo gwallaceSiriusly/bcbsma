@@ -1,0 +1,308 @@
+.revisit-this {
+  color: $white; 
+  background: #c00;
+  padding: 5px 10px;
+}
+.home-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  text-align: center;
+  color: $body-font-color;
+}
+.logo {
+	max-width: 300px;
+	height: auto;
+  margin-left: 5px;
+}
+.title-bar.madpow { 
+  padding: 20px 0!important;
+  border-bottom: solid 1px #999;
+    @include breakpoint(medium) {
+      height: 80px;
+    }
+}
+.sg-footer-logo {
+  width: 200px;
+}
+
+/**************************************
+  Style Guide Navigation
+***************************************/
+.dropdown.menu .submenu { 
+  min-width: 220px !important;
+}
+
+.inactive a,
+.inactive a:hover {
+    color: $medium-gray;
+    cursor: default;
+}
+
+// Highlights new items added to the navigation
+li.new-item a { color: $primary-color; }
+li.new-item a:hover { color: $black; } 
+
+// Keeps the spans inline
+.menu > li > a > span { vertical-align: top !important; }
+
+.dropdown.menu .submenu > li a  {
+  line-height: 1.125;
+}
+
+.menu > li > a.active { color: $primary-color;}
+
+.inner-content {
+  max-width: $global-width;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include breakpoint(1140) {
+    padding: 0;
+  }
+}
+
+.tabs-panel.is-active {
+    overflow: scroll;
+}
+.tabs-title > a {
+    padding: 1rem !important;
+    font-size: 13px !important;    
+}
+
+.inner-content { min-height: 400px; }
+/**************************************
+  Style Guide Icon Blocks
+***************************************/
+.color-block.wide span img {
+  width: 100px;
+  margin: 40px 0 0 -50px;
+}
+.color-block span { position: relative; }
+.color-block span img {
+    width: 50px;
+    max-height: 50px;
+    left: 50%;
+    position: absolute;
+    margin: 20px 0 0 -25px;
+}
+
+/**************************************
+  Style Guide Color Blocks
+***************************************/
+.color-usage,
+.sass-look { 
+  text-transform: none; 
+  font-style: italic;
+  font-size: .9rem;
+}
+.sass-look {
+  color: $warning-color;
+  font-weight: bold;
+}
+
+.color-block { 
+  margin-bottom: 15px; 
+  span { border: solid 1px $medium-gray; }
+}
+
+.subnav-blue { background-color: $subnav-blue; }
+.colors-blue { background-color: $primary-color; }
+.colors-pale-blue { background-color: $pale-blue; }
+.colors-forms-blue { background-color: $forms-blue; }
+.colors-light-blue { background-color: $light-blue; }
+.colors-medium-blue { background-color: $medium-blue; }
+.colors-dividers-blue { background-color: $dividers-blue; }
+
+.colors-green { background-color: $tertiary-color; }
+.colors-green2 { background-color: $grn-table-content-alt; }
+.colors-green3 { background-color: $grn-table-content; }
+.colors-forms-green { background-color: $forms-green; }
+
+.colors-purple { background-color: $secondary; }
+.colors-orange { background-color: $warning-color; }
+.colors-red { background-color: $alert-color; }
+.colors-black { background-color: $black; }
+.colors-white { background-color: $white; }
+
+.colors-light-gray { background-color: $light-gray; }
+.colors-medium-gray { background-color: $medium-gray; }
+.colors-dark-gray { background-color: $dark-gray; }
+.body-font-color { background-color: $body-font-color; /* aka $dark-gray */ }
+
+.color-block { margin-bottom: 15px; }
+
+/**************************************
+  Typography
+***************************************/
+
+.website-usage {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: $light-gray;
+      border: 1px solid #e2e2e2;
+}
+.usage-item {
+  // font-style: italic;
+  font-weight: bold;
+}
+
+
+.snippet {
+  margin: 0;
+  border: 1px solid #e2e2e2;
+  padding: 15px;
+  width: auto;
+  white-space: pre-wrap;       /* CSS3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+%sg-margin-bottom {
+  margin: 0 0 12px;
+}
+%sg-display-block {
+  display: block;
+}
+
+// p,
+// a,
+// .label-form,
+// .title-accordion-1,
+// .title-accordion-1-subhead,
+// .title-accordion-2,
+// .title-accordion-2-subhead,
+// .title-greetings,
+// .text-greetings,
+// .title-standard-modal,
+// .text-standard-modal,
+// .title-section,
+// .title-subsection,
+// .title-bucket,
+// .text-value,
+// .text-value-plus,
+// .title-care-infographic,
+// .text-care-info-timeline,
+// .title-care-info-step,
+// .text-care-info-description,
+// .text-bar-chart,
+// .title-table,
+// .title-table-plus,
+// .label-provider { @extend %sg-margin-bottom; }
+
+// .label-provider { @extend %sg-display-block; }
+
+
+/* background color blocks to show white text */
+.sg-box {
+  padding: 30px;
+  &.blue { background-color: $primary-color; }
+  &.light-blue { background-color: $light-blue; }
+  &.pale-blue { background-color: $pale-blue; }
+}
+.my-account-page.sg-box {
+  padding: 30px 0;  
+}
+
+
+
+/* This styles the vertical tabs used for the table of contents. */
+.tabs.vertical {
+  width: 100%;
+  max-width: 100%;
+}
+/* This styles code blocks used for examples. */
+.ss-code code {
+  display: block;
+  padding: 1rem;
+  overflow-x: scroll;
+  margin-bottom: 1.5rem;
+}
+/* This styles the example rows used in the grid documentation. */
+.row.display {
+  background: #eee;
+  font-size: 11px;
+  margin-bottom: 10px;
+  line-height: 2rem;
+  border: solid 1px #c6c6c6;
+  margin-left: 0 !important;
+  margin-right: 0 !important; 
+}
+.row.display .columns:nth-child(2), .row.display .columns.small-centered, .row.display .columns.large-centered {
+  background: #e1e1e1; 
+}
+.row.display .columns.color-end {
+  background: #d4d4d4; 
+}
+/* This styles the color blocks used in the color documentation. */
+.color-block {
+  border-radius: 2px;
+  display: block;
+  padding: 8px 8px 6px;
+  color: #333;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.color-block span {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0.42857rem;
+}
+
+/**************************************
+	Release calendar
+***************************************/
+.event {
+  padding: 1rem 1rem 1rem 0;
+  display: table;
+}
+.event-date {
+  width: 6rem;
+  margin: 0 auto 1rem;
+  display: table-cell;
+  width: auto;
+  .event-month {
+    margin: 0;
+    background: #eee;
+    padding: 0.5rem 2rem;
+    text-align: center;
+  }
+  .event-day {
+    margin: 0;
+    border: 1px solid #eee;
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.event-desc {
+  padding: 0 0 0 1rem;
+  text-align: left;
+  display: table-cell;
+  vertical-align: top;
+  .event-desc-header {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+  }
+  .event-desc-detail {
+    margin: 0 0 0.25rem;
+    padding: 0;
+  }
+  .event-desc-time {
+    font-weight: bold;
+  }
+  .rsvp.button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+  }
+}
+/**************************************
+	Ends release calendar
+***************************************/

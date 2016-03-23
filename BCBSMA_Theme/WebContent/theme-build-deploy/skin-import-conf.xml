@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM WebSphere Portal/8.5 build 20140424-1749 exported on Wed Jun 10 15:47:28 CDT 2015 from localhost.localdomain/127.0.0.1 virtual portal: none (default virtual portal) -->
+<request build="20140424-1749" type="update" version="8.5.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortalConfig_8.5.0.xsd">
+    <status element="all" result="ok"/>
+</request>
